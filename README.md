@@ -29,6 +29,8 @@
 ~~删除文字~~ 
 
 ## 不知道week几
-开始翻译AR interior designer的论文啦！！
+开始翻译AR interior designer的论文啦！！  
+
+今天也翻译了很多很多的论文呢！！
 
 
