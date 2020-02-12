@@ -36,7 +36,7 @@
 今天也有好好翻译论文！！！希望明天再有效率一些，翻译完这篇文章～
 
 ## 0212 
-![TranslationShowA.png](https://i.loli.net/2020/02/12/PQe5la93sHXLtcm.jpg)
+![TranslationShowA.jpg](https://i.loli.net/2020/02/12/rVOLoEDX8jGHFz3.jpg)
 AR interior designer这篇论文的翻译工作已经初步完成了。  
 ![issueScreenshot.png](https://i.loli.net/2020/02/12/cMnSykXJirEfAD9.png)
 接下来对论文中的部分算法和专业名次解释会在周报中详细理解与记录。  
