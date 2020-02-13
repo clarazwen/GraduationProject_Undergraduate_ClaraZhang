@@ -1,3 +1,5 @@
+#《AR interior designer》文献内的部分词汇与句子
+
 ## 根据环境语意的特定词汇翻译：
 * proportional:成比例的，按照比例的
 * perimeter：周长
