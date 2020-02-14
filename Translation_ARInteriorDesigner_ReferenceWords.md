@@ -31,7 +31,7 @@ RANSAC是一种用于在点集对内联点（？）进行聚类的算法。
 *The Floor level slidebar on the left-hand side enables user to fine tune the vertical position of any highlighted plane under noisy environment;*  
 左侧的地面水平滑块使用户可以在嘈杂的环境下微调任何突出显示平面的垂直位置。  
 
-*The scaling of a furniture model need match distance changing between KINECT and the farthest perimeter of the largest supporting plane. *  
+*The scaling of a furniture model need match distance changing between KINECT and the farthest perimeter of the largest supporting plane.*   
 家具模型的缩放需要匹配Kinect和最大支撑平面的最远周长之间的距离变化。  
 
 *by dividing the by dP/dW*  
