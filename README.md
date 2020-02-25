@@ -4,5 +4,5 @@ Implementation of personalized home decoration platform based on augmented reali
 基于增强现实的个性化家装平台  
 
 
-lulu‘s 毕业设计鸡毛蒜皮的记录  
+lulu‘s 毕业设计鸡毛蒜皮的记录)    
 万事胜意！
