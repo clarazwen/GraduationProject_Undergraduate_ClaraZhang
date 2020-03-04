@@ -1,95 +1,62 @@
-# ProgressReport
-
-内容暂定  
-一个闲言碎语各种记录的记录周报  
->任务书设定的预期进度安排  
->进度安排:  
->前期:  
->2020年1月初：确认毕业设计需完成的基本内容，查找相关文献与材料，完成开题工作；  
->1月-2月中：学习AR技术的原理以及熟悉Unity3D+Vuforia的开发方式，完成参考文献的阅读及翻译，学习家装设计类知识；  
->中期：  
->2月中-3月：完成家具三维模型库的建立，实现AR效果，使用简单的家具模型完成app功能上的实现；  
->3月：实现demo，完成基本功能；考虑造型的初步美观，app的基本交互设计；通过在开发过程中发现问题记录问题并及时与指导老师沟通，对预期功能进行修改与完善；准备中期答辩；  
->后期：  
->4月-5月：结合造型基础进行个性化的模型设计，改善装修效果以及风格的多样性。进入后期的软件完善阶段；  
->5月：改善app的用户体验，补充相关风格产品推荐等；同时完成毕业设计论文的撰写与格式的确认；拍摄演示视频及设计个人展板等。  
+# 毕业设计完成记录
+> ### 任务书设定的预期进度安排  
+> 1. 前期:  
+>- 2020年1月初：确认毕业设计需完成的基本内容，查找相关文献与材料，完成开题工作；  
+>- 1月-2月中：学习AR技术的原理以及熟悉Unity3D+Vuforia的开发方式，完成参考文献的阅读及翻译，学习家装设计类知识；  
+> 2. 中期：  
+>- 2月中-3月：完成家具三维模型库的建立，实现AR效果，使用简单的家具模型完成app功能上的实现；  
+>- 3月：实现demo，完成基本功能；考虑造型的初步美观，app的基本交互设计；通过在开发过程中发现问题记录问题并及时与指导老师沟通，对预期功能进行修改与完善；准备中期答辩；  
+> 3. 后期：  
+>- 4月-5月：结合造型基础进行个性化的模型设计，改善装修效果以及风格的多样性。进入后期的软件完善阶段；  
+>- 5月：改善app的用户体验，补充相关风格产品推荐等；同时完成毕业设计论文的撰写与格式的确认；拍摄演示视频及设计个人展板等。  
 
 
-## week 1  0110  
-积极与导师沟通，确定毕业设计题目与初步开发内容  
-完成前期调研任务，与导师见面，确定开发平台，阅读大量相关参考文献挑选合适文献；  
-撰写开题报告，确定任务书内容并联系导师签字，完成开题任务，沟通假期安排。
+### week 1  0110  
+&#8195;积极与导师沟通，确定毕业设计题目与初步开发内容。  
+&#8195;完成前期调研任务，与导师见面，确定开发平台，阅读大量相关参考文献挑选合适文献；  
+&#8195;撰写开题报告，确定任务书内容并联系导师签字，完成开题任务，沟通假期安排。
 
-## week 2  0117  
+### week 2  0117  
+&#8195;确定假期的毕设计划与进度：熟练unity的使用，通过阅读在前期调研过程中的参考文献，挑选合适的英文文献进行仔细阅读与翻译。  
+&#8195;熟悉github上传文件，download代码，clone代码的方式，了解github引入图片，上传文档的方法。  
+&#8195;练习使用markdown语言进行文档撰写，在「github」以「简书」上尝试使用markdown进行内容的记录。  
 
-**加粗文字** ***加粗***   
-***斜体加粗文字***  
-~~删除文字~~   
-确定假期的毕设计划与进度：熟练unity的使用，阅读主要参考文献并完成文献翻译工作  
-通过阅读在前期调研过程中的参考文献，挑选合适的英文文献进行仔细阅读与翻译  
-熟悉github引入图片，上传文档的方式。  
-练习使用markdown完成工作进度的汇报...想起了我半小时速成的latex语言...  
-
-## week 3  0124  
-今天过年！  
-本周内阅读了一些在前期调研过程中找到的参考文献！每一篇都仔细地阅读，并且了解其开发方法与使用的算法，提取可以参考的部分。    
-多个角度比对不同的文献，确定最为合适的外文翻译文献。    
+### week 3  0124    
+&#8195;本周内阅读了一些在前期调研过程中找到的参考文献。对每一篇都进行仔细地阅读，了解论文中介绍的开发方法以及作者所使用的算法。记录对自己的毕业设计有指导意义的部分。    
+&#8195;多个角度比对不同的文献，确定最为合适的外文翻译文献。    
 
 
-## week 4  0131  
-2020年魔幻故事，不能随便出门不能聚餐不能出去玩了。大家加油！   
-在家乖乖翻译论文，学习unity！  
-开始翻译AR interior designer的论文啦！！      
-每天都有好好翻译论文！！！希望明天再有效率一些，翻译完这篇文章～    
+## week 4  0131    
+&#8195;着手学习如何使用Unity进行AR/VR开发，尝试了解Vuforia的工作原理以及基本操作。参考书籍及资料会在其他部分统一整理。  
+&#8195;根据***技术难度，算法理解，文章长短，指导意义，与毕业设计内容的相关性***等多方面评价论文的参考价值，选定两篇文章进行翻译。  
+&#8195;[AR interior designer- Automatic furniture arrangement using spatial and functional relationships.pdf](https://ieeexplore.ieee.org/abstract/document/7136652/)    
+&#8195;[Markerless Augmented Reality based Interior Designing System](https://ieeexplore.ieee.org/abstract/document/8537349/)  
 
 ## week 5  0207  
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/TranslationShowA.jpg" width="50%" height="50%"/></div>
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/TranslationShowA.jpg" width="50%" height="50%"/></div>  
 
-AR interior designer这篇论文的翻译工作已经初步完成了。  
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/issueScreenshot.png" width="50%" height="50%"/></div>
-  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/issueScreenshot.png" width="50%" height="50%"/></div>    
 
-接下来对论文中的部分算法和专业名次解释会在周报中详细理解与记录。  
-准备翻译另外一篇同样不错的较短的参考文献。  
-今天效率还ok！完成的差不多了之后开始试试开发，并且将GitHub上记录的这些用markdown整理成人话。  
-开学时间暂延后，毕设开发按照原定计划不变，加油！！  
+初步完成AR interior designer论文的翻译工作。  
+论文中的部分「算法和专业名词解释」在[AR interior designer翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/Translation_ARInteriorDesigner_ReferenceWords.md) 中有详细解释。准备开始翻译另外一篇技术性不强，但在应用方面比较有参考价值的论文。   
+开学时间暂延后，毕设开发按照原定计划不变。  
+ 
+### week 6  0214   
+&#8195;完成了AR interior designer的论文翻译与词语整理，根据往年《毕业设计指导书》中「外文翻译」的参考格式对翻译文档的格式进行了调整，具体格式后期再进行订正与修改。   
+&#8195;同样完成了Markerless Augmented Reality的论文翻译工作。  
+&#8195;开始学习Unity+Vuforia+AR的开发。    
+&#8195;准备下一篇论文翻译，学习unity+Vuforia+AR的初步开发。    
+&#8195;调研了一些市场上已有的家具设计类app，下载安装后尝试使用此类app来找寻家居设计类的灵感。站在用户的角度，学习其用户界面与交互方式。   
+### week 7  0221    
+&#8195;整理了Markerless Augmented Reality陌生词汇，关键词汇与理论方法[Markerless Augmented Reality翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/Translation_Markerless_ReferenceWords.md)。    
+&#8195;开始阅读借阅的关于unity+AR+Vuforia的参考书籍，着手进行开发学习。    
+&#8195;将调研过程以及查找资料过程中找到的unity+ar+vuforia的demo都测试了一下，连接到我自己的手机，打开USB调试并启用开发者模式。build并安装app，使用效果正常。  
+- 教程中所介绍到的AR demo都是从扫描图片开始的，尝试使用ImageTarget进行测试。  
+  * 在尝试第一个AR Demo过程中，很多教程中会提到安装初期即选择Vuforia进行安装，但是我的选项并没有这个模块[问题1]。此外，「XR setting」以及vuforia 导入等内容，也与我的unity不符[问题2]（mac很多的操作都不需要手动去做）。  
+- 学习过程中了解到Vuforia主要使用「识别」的方式来实现AR效果，然而本毕业设计并不设计到图像识别[问题3]（在学习过程中逐渐深入学习Vuforia，寻求最佳方案。）。      
 
-## week 6  0214   
-完成了AR室内设计师这篇论文的部分需理解和注意的词汇与语句的汇总，并已经上传到本文件中（file：Translation_ARInteriorDesigner_ReferenceWords.md）。  
-按格式将翻译好的文献整理出来，准备翻译下一篇比较好的文献。  
-  
-0214:完成了AR interior designer论文的翻译，校准以及按照《毕业设计指导书》中的格式要求进行了完善，后续的具体格式再找导师进行确定。  
-准备下一篇论文翻译，学习unity+Vuforia+AR的初步开发。  
-下载了不少家具设计类app，开始尝试这些app，找到家居设计类的灵感；并且学习它们的用户界面与交互方式。  
-  
-21:16 又完成了一部分第二篇论文的翻译工作。外文翻译应该是一篇就够了，找的这两篇文章侧重点不同，所以就都翻译看看了。  
-加加加加油！  
-
-## week 7  0221
-
-继续翻译了第二篇论文《Markerless Augmented Reality based Interior Designing System》，整理了陌生词汇，关键词汇与理论方法。两篇论文的翻译都搞定了！！接下来开始试着unity ar或者建模了！！  
-时间过得还真快🐰翻译工作已经完成，进入了开发学习及家装设计阶段。  
-再试试下载好的家装类app以及一些AR软件的使用，学习其交互流程。  
-学习了借来的unity+AR+Vuforia的参考书，着手进行开发学习。  
-
-0219:AR案例需要扫描一个目标文件来支持增强现实的实现，尝试使用imageTarget进行学习。  
-...家里的网速有些慢，Vuforia之路一开始就有点窒息。  
-但是在unity上发现了许多AR开发的文章，一边看一边等加载...  
-Vuforia这个好像需要扫描点啥才能实现AR效果，所以我是不是应该思考一下家居设计如果暂时没有目标物体怎么办。   
-
-0220:（脑瓜子疼  
-脑瓜子又不疼了...）  
-刚刚惊讶的发现昨天困扰我的事情是因为mac很多的操作都不需要手动去做，而网络上找到的教程很多操作其实已经完成了，不需要特意去勾选。比如xr setting，我下的这一版本直接就是支持vuforia的，不用特意勾选sdk启动。  
-也不用手动导入vuforia engine，在manager中直接就可以下载。  
-我好像一个活在古老版本的原始人...  
-今天使用vuforia+imageTarget实现了第一个小实验，不过调用的是电脑的摄像头，也就是FaceTime HD。不过也成功了，通过读取我的头像...识别出来了一个球。
-继续尝试其他模型，以及深入理解其功能。再多思考我自己的东西应该怎么去做。  
-
-0221：把之前找到的一些unity+ar+vuforia小测试的教程都学习和练习了一遍。刚用了数据线和手机，打开了usb调试，使用as新建了一个小小的程序，试了一下我的手机运行开发的app是正常的。  
-今天再接着试试其他的内容，以及对显示AR物体的交互啥的。  
-
-## week 8 0228
-### 0222  
+## week 8 0228（尚未更改）
+### 0222 
 入门就有点头秃，今天也很不快乐。  
 太感人了，折腾了一个晚上unity发布apk，我终于在我的手机上安装了第一个unity app！  
 ### 0223
