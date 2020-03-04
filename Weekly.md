@@ -34,8 +34,11 @@
 
 ## week 5  0207  
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/TranslationShowA.jpg" width="50%" height="50%"/></div>  
+
 初步完成AR interior designer论文的翻译工作。  
+
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/issueScreenshot.png" width="50%" height="50%"/></div>    
+
 论文中的部分「算法和专业名词解释」在[AR interior designer翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/Translation_ARInteriorDesigner_ReferenceWords.md) 中有详细解释。准备开始翻译另外一篇技术性不强，但在应用方面比较有参考价值的论文。   
 开学时间暂延后，毕设开发按照原定计划不变。  
  
