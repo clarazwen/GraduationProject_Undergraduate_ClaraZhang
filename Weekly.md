@@ -43,10 +43,10 @@
 每天都有好好翻译论文！！！希望明天再有效率一些，翻译完这篇文章～    
 
 ## week 5  0207  
-<div align=center>![TranslationShowA.jpg]<img src="https://github.com/clarazwen/ProgressReport/blob/master/TranslationShowA.jpg" width="50%" height="50%"/></div>
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/TranslationShowA.jpg" width="50%" height="50%"/></div>
 
 AR interior designer这篇论文的翻译工作已经初步完成了。  
-<div align=center>![issueScreenshot.png]<img src="https://github.com/clarazwen/ProgressReport/blob/master/issueScreenshot.png" width="50%" height="50%"/></div>
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/issueScreenshot.png" width="50%" height="50%"/></div>
   
 
 接下来对论文中的部分算法和专业名次解释会在周报中详细理解与记录。  
