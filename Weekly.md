@@ -26,13 +26,13 @@
 &#8195;多个角度比对不同的文献，确定最为合适的外文翻译文献。    
 
 
-## week 4  0131    
+### week 4  0131    
 &#8195;着手学习如何使用Unity进行AR/VR开发，尝试了解Vuforia的工作原理以及基本操作。参考书籍及资料会在其他部分统一整理。  
 &#8195;根据**技术难度，算法理解，文章长短，指导意义，与毕业设计内容的相关性**等多方面评价论文的参考价值，选定两篇文章进行翻译。  
 &#8195;[AR interior designer- Automatic furniture arrangement using spatial and functional relationships.pdf](https://ieeexplore.ieee.org/abstract/document/7136652/)    
 &#8195;[Markerless Augmented Reality based Interior Designing System](https://ieeexplore.ieee.org/abstract/document/8537349/)  
 
-## week 5  0207  
+### week 5  0207  
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/TranslationShowA.jpg" width="50%" height="50%"/></div>  
 
 初步完成AR interior designer论文的翻译工作。  
@@ -61,7 +61,7 @@
 &#8195;整理周报内容，调整文档格式以及汇总参考链接。  
 &#8195;使用Unity在手机上发布了第一个apk（简易AR Demo），并成功实现了扫描图像展示模型。
 &#8195;学习Vuforia关于识别图的星级评定的原理，关于后续识别图像的一系列修改（锐化，调整对比度等）。了解到了vuforia引擎的可以进行更改一些预设定，如user defined target building behaviour 包括「start scanning automat/stop scanning after creating a target」  
-&#8195;***补充思路：***在对市面上已有家装设计软件进行调研时提出想法「是否可以将360全景图展示模块加入其中」，参考「酷家」设计app。    
+&#8195;***补充思路:*** 在对市面上已有家装设计软件进行调研时提出想法「是否可以将360全景图展示模块加入其中」，参考「酷家」设计app。    
 &#8195;~~接下来准备尝试模型交互或复杂模型的展示，思考解决Vuforia必须进行图像识别才能显示AR效果与本毕业设计无需图像识别的矛盾。[问题3]~~      
 &#8195;~~尝试智能地形+3D物体识别的内容，为后期开发做准备；学习关于AR内容交互的模块，包括脱卡功能，手势控制，虚拟按钮调用等，创建简单的demo进行尝试.~~    
 ### week 9 0306  
