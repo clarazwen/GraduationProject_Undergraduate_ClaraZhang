@@ -59,14 +59,14 @@
 
 ### week 8 0228  
 &#8195;整理周报内容，调整文档格式以及汇总参考链接。  
-&#8195;使用Unity在手机上发布了第一个apk（简易AR Demo），并成功实现了扫描图像展示模型。
-&#8195;学习Vuforia关于识别图的星级评定的原理，关于后续识别图像的一系列修改（锐化，调整对比度等）。了解到了vuforia引擎的可以进行更改一些预设定，如user defined target building behaviour 包括「start scanning automat/stop scanning after creating a target」  
+&#8195;使用Unity在手机上发布了第一个apk（简易AR Demo），并成功实现了扫描图像展示模型。  
+&#8195;学习Vuforia关于识别图的星级评定的原理，关于后续识别图像的一系列修改（锐化，调整对比度等）。了解到了vuforia引擎的可以进行更改一些预设定，如user defined target building behaviour 包括「start scanning automat/stop scanning after creating a target」。   
 &#8195;***补充思路:*** 在对市面上已有家装设计软件进行调研时提出想法「是否可以将360全景图展示模块加入其中」，参考「酷家」设计app。    
 &#8195;~~接下来准备尝试模型交互或复杂模型的展示，思考解决Vuforia必须进行图像识别才能显示AR效果与本毕业设计无需图像识别的矛盾。[问题3]~~      
 &#8195;~~尝试智能地形+3D物体识别的内容，为后期开发做准备；学习关于AR内容交互的模块，包括脱卡功能，手势控制，虚拟按钮调用等，创建简单的demo进行尝试.~~    
 ### week 9 0306  
 &#8195;在b站和youtube多看了一些相关视频，发现ARKit更加适合于本毕业设计对应内容。  
-&#8195;将以下部分完成的内容提交到了GitHub上，[问题4]记录了在使用Git进行提交时遇到的问题以及一些解决办法。
+&#8195;将以下部分完成的内容提交到了GitHub上，[问题4]记录了在使用Git进行提交时遇到的问题以及一些解决办法。  
 &#8195;ARKit是iOS生态的开发平台，使用我自己的电脑以及平板进行了效果测试(MacBook Pro2018，Ipad Pro 9.7)。在尝试过程中遇到了许多问题，问题描述及解决方式见[问题5]。  
 - 使用ARKit完成了一些基本功能的实现   
   - 开发IDE为XCode，使用原生IOS开发方式，调用SceneKit实现了样例demo，进行飞机展示。  
