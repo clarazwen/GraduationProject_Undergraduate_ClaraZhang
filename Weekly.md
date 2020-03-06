@@ -33,13 +33,13 @@
 &#8195;[Markerless Augmented Reality based Interior Designing System](https://ieeexplore.ieee.org/abstract/document/8537349/)  
 
 ### week 5  0207  
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/TranslationShowA.jpg" width="50%" height="50%"/></div>  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/LiteratureTranslation/TranslationShowA.jpg" width="50%" height="50%"/></div>  
 
 初步完成AR interior designer论文的翻译工作。  
 
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/issueScreenshot.png" width="50%" height="50%"/></div>    
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/LiteratureTranslation/issueScreenshot.png" width="50%" height="50%"/></div>    
 
-论文中的部分「算法和专业名词解释」在[AR interior designer翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/Translation_ARInteriorDesigner_ReferenceWords.md) 中有详细解释。准备开始翻译另外一篇技术性不强，但在应用方面比较有参考价值的论文。   
+论文中的部分「算法和专业名词解释」在[AR interior designer翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/LiteratureTranslation/Translation_ARInteriorDesigner_ReferenceWords.md) 中有详细解释。准备开始翻译另外一篇技术性不强，但在应用方面比较有参考价值的论文。   
 开学时间暂延后，毕设开发按照原定计划不变。  
  
 ### week 6  0214   
@@ -49,7 +49,7 @@
 &#8195;准备下一篇论文翻译，学习unity+Vuforia+AR的初步开发。    
 &#8195;调研了一些市场上已有的家具设计类app，下载安装后尝试使用此类app来找寻家居设计类的灵感。站在用户的角度，学习其用户界面与交互方式。   
 ### week 7  0221    
-&#8195;整理了Markerless Augmented Reality陌生词汇，关键词汇与理论方法[Markerless Augmented Reality翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/Translation_Markerless_ReferenceWords.md)。    
+&#8195;整理了Markerless Augmented Reality陌生词汇，关键词汇与理论方法[Markerless Augmented Reality翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/LiteratureTranslation/Translation_Markerless_ReferenceWords.md)。    
 &#8195;开始阅读借阅的关于unity+AR+Vuforia的参考书籍，着手进行开发学习。将调研过程以及查找资料过程中找到的unity+ar+vuforia的demo都测试了一下。  
 &#8195;为保证开发硬件设备正常，将Android Studio连接到我自己的手机，打开USB调试并启用开发者模式。build并安装app，使用效果正常。  
 - 教程中所介绍到的AR demo都是从扫描图片开始的，尝试使用ImageTarget进行测试。  
