@@ -8,13 +8,13 @@
 **问题描述**：在尝试第一个AR Demo过程中，很多教程中会提到安装初期即选择Vuforia进行安装，但是我的选项并没有这个模块。Mac Unity 2019.2.21f1    
 **解决办法**：新版的unity在下载时没有选择「Vuforia」这个模块。在下载时仅需下载需要的开发平台（mac，linux，android或Ios等），在完成下载并启动unity时，在「Package Manager」中选择加载「vuforia engine」即可。    
 
-<div align=center><img src="https://i.loli.net/2020/03/06/nRAIDuXgdOJVyH9.jpg" width="50%" height="50%"/></div>     
-<div align=center><img src="https://i.loli.net/2020/03/06/gs4qfyxKEB3kYz8.jpg" width="50%" height="50%"/></div>     
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/ProblemPictures/Problem1_a.jpg" width="50%" height="50%"/></div>     
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/ProblemPictures/Problem1_b.jpg" width="50%" height="50%"/></div>     
 
 ### 【问题2】  
 **问题描述**：网上或是参考书中的内容在进行Vuforia完成第一个AR demo时都有提及到关于「XR setting」的修改,例如[Unity+Vuforia AR入门](https://www.jianshu.com/p/2fc8c986d57d) ,然而在我自己开发的过程中都没有找到这些设定修改的位置。    
 
-<div align=center><img src="https://i.loli.net/2020/03/06/O4BJLnR8tVhCrGH.jpg" width="50%" height="50%"/></div>     
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/ProblemPictures/Problem2.jpg" width="50%" height="50%"/></div>     
 
 **解决办法**：在学习了相关教程后,思考认为可能是当前unity 版本过新。曾经出现的问题已经都修复好，现在无需进行此类冗杂的操作，也可能是mac端无需进行这些操作。       
 在跳过了各类教程中这部分的步骤后，直接进行接下来的操作（如建立AR Camera，导入ImageTarget等），再运行程序，发现并未报错。   
@@ -40,8 +40,8 @@ sudo vi /etc/hosts
 2.# 输入 password
 3.# 进入hosts，按“i”，进入编辑模式，添加host
 192.30.253.112 github.com
-4.#control+c 退出编辑模式
-5.#输入 :wq ，保存退出#
+4.# control+c 退出编辑模式
+5.# 输入 :wq ，保存退出#
 ~~~  
 全部完成上述步骤后，再次输入`git push/pull origin master`即可成功完成了从git上pull代码以及push代码到仓库上。  
 
@@ -55,7 +55,7 @@ sudo vi /etc/hosts
 **解决办法**：  
 1. 在https://github.com/iGhibli/iOS-DeviceSupport 找到对应版本的支持文件放到` /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/DeviceSupport `目录下。    
 2. 等待。或者重启XCode，并且在IPad上删除对应的apk，再次构建项目。    
-3. 原因是电脑与Ipad尚未互相信任，在将Ipad连接到Mac时都需要选择「信任本台设备」。此外，在Ipad端，进入`设置->通用->设备管理->开发者app->进入对应的app`进行验证，完成验证后即可正常运行。    
+3. 原因是电脑与Ipad尚未互相信任，在将Ipad连接到Mac时都需要选择「信任本台设备」。此外，在iPad端，进入`设置->通用->设备管理->开发者app->进入对应的app`进行验证，完成验证后即可正常运行。    
 4. 苹果的免费App ID只能运行2个应用程序，连接iPad 打开`Xcode->Window->Devices`，删除非本次运行的程序或者在iPad直接卸载应用也可。  
 
 ### 【问题6】    
