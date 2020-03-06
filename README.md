@@ -9,8 +9,8 @@
 - [Markerless Augmented Reality based Interior Designing System](https://ieeexplore.ieee.org/abstract/document/8537349/)  
 
 部分重点词汇及模糊词汇语句记录见  
-- [AR interior designer翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/Translation_ARInteriorDesigner_ReferenceWords.md)
-- [Markerless Augmented Reality翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/Translation_Markerless_ReferenceWords.md)
+- [AR interior designer翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/LiteratureTranslation/Translation_ARInteriorDesigner_ReferenceWords.md)
+- [Markerless Augmented Reality翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/LiteratureTranslation/Translation_Markerless_ReferenceWords.md)
 ### 测试效果展示图片  
 为将测试效果的图片集中于一部分展示，独立新建一个仓库进行 [效果展示](https://github.com/clarazwen/showPicture)  
 
