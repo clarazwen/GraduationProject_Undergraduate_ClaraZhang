@@ -55,7 +55,7 @@
 - 教程中所介绍到的AR demo都是从扫描图片开始的，尝试使用ImageTarget进行测试。  
   * 在尝试第一个AR Demo过程中，很多教程中会提到安装初期即选择Vuforia进行安装，但是我的选项并没有这个模块[问题1]。
   * 此外，「XR setting」以及vuforia 导入等内容，也与我的unity不符[问题2]（mac很多的操作都不需要手动去做）。  
-- 学习过程中了解到Vuforia主要使用「识别」的方式来实现AR效果，然而本毕业设计并不涉及到图像识别[问题3]（在学习过程中逐渐深入学习Vuforia，寻求最佳方案。）。      
+- 学习过程中了解到Vuforia主要使用「识别」的方式来实现AR效果，然而本毕业设计并不涉及到图像识别[问题3]（在学习过程中逐渐深入学习Vuforia，寻求最佳方案）。      
 
 ### week 8 0228  
 &#8195;整理周报内容，调整文档格式以及汇总参考链接。  
@@ -71,20 +71,20 @@
 - 使用ARKit完成了一些基本功能的实现   
   - 开发IDE为XCode，使用原生IOS开发方式，调用SceneKit实现了样例demo，进行飞机展示。  
   
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/tree/master/Pictures/TestPictures_Tutorial/plane_model.PNG" width="50%" height="50%"/></div>    
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/plane_model.PNG" width="50%" height="50%"/></div>    
 
   - 使用SpriteKit，MetalKit中XCode的样例文件，实现了点击屏幕展示模型的功能。
   
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/tree/master/Pictures/TestPictures_Tutorial/cube_model.PNG" width="40%" height="40%"/></div>
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/tree/master/Pictures/TestPictures_Tutorial/emoji_model.PNG" width="40%" height="40%"/></div>  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/cube_model.PNG" width="40%" height="40%"/></div>
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/emoji_model.PNG" width="40%" height="40%"/></div>  
 
   - 使用Ipad pro进行效果测试，对Arkit中世界跟踪，跟踪检测，位置坐标记录有了一定了解。  
   - 创建了single View app，从零开始实现了平面检测的代码[PlaneDetection](https://github.com/clarazwen/PlaneDetection_Demo1)，效果图及控制台输出数据如下。    
   
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/tree/master/Pictures/TestPictures_Tutorial/PlaneDetect_table.PNG" width="40%" height="40%"/></div>
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/tree/master/Pictures/TestPictures_Tutorial/PlaneDetect_table2.PNG" width="40%" height="40%"/></div>  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/PlaneDetect_table.PNG" width="40%" height="40%"/></div>
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/PlaneDetect_table2.PNG" width="40%" height="40%"/></div>  
 
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/tree/master/Pictures/TestPictures_Tutorial/PlaneDemo_1_Console_data.png" width="50%" height="50%"/></div>  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/PlaneDemo_1_Console_data.png" width="50%" height="50%"/></div>  
 
   - 在完成平面检测代码的过程中发现缺失PlaneNode这一个类的内容，尚未找到对应文件[问题6]。目前使用了网络上其他教程的方法，也完成了这一部分功能的实现，运行起来暂无问题，控制台输出状态及数据也是正常合理的。  
 - 当前计划    
