@@ -40,7 +40,7 @@
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/LiteratureTranslation/issueScreenshot.png" width="50%" height="50%"/></div>    
 
 &#8195;论文中的部分「算法和专业名词解释」在[AR interior designer翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/LiteratureTranslation/Translation_ARInteriorDesigner_ReferenceWords.md) 中有详细解释。准备开始翻译另外一篇技术性不强，但在应用方面比较有参考价值的论文。   
-开学时间暂延后，毕设开发按照原定计划不变。  
+&#8195;开学时间暂延后，毕设开发按照原定计划不变。  
  
 ### week 6  0214   
 &#8195;完成了AR interior designer的论文翻译与词语整理，根据往年《毕业设计指导书》中「外文翻译」的参考格式对翻译文档的格式进行了调整，具体格式后期再进行订正与修改。   
@@ -53,9 +53,9 @@
 &#8195;开始阅读借阅的关于unity+AR+Vuforia的参考书籍，着手进行开发学习。将调研过程以及查找资料过程中找到的unity+ar+vuforia的demo都测试了一下。  
 &#8195;为保证开发硬件设备正常，将Android Studio连接到我自己的手机，打开USB调试并启用开发者模式。build并安装app，使用效果正常。  
 - 教程中所介绍到的AR demo都是从扫描图片开始的，尝试使用ImageTarget进行测试。  
-  * 在尝试第一个AR Demo过程中，很多教程中会提到安装初期即选择Vuforia进行安装，但是我的选项并没有这个模块[问题1]。
-  * 此外，「XR setting」以及vuforia 导入等内容，也与我的unity不符[问题2]（mac很多的操作都不需要手动去做）。  
-- 学习过程中了解到Vuforia主要使用「识别」的方式来实现AR效果，然而本毕业设计并不涉及到图像识别[问题3]（在学习过程中逐渐深入学习Vuforia，寻求最佳方案）。      
+  * 在尝试第一个AR Demo过程中，很多教程中会提到安装初期即选择Vuforia进行安装，但是我的选项并没有这个模块[问题1](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%981)。
+  * 此外，「XR setting」以及vuforia 导入等内容，也与我的unity不符[问题2](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%982)。  
+- 学习过程中了解到Vuforia主要使用「识别」的方式来实现AR效果，然而本毕业设计并不涉及到图像识别[问题3](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%983)  
 
 ### week 8 0228  
 &#8195;整理周报内容，调整文档格式以及汇总参考链接。  
@@ -66,8 +66,8 @@
 &#8195;~~尝试智能地形+3D物体识别的内容，为后期开发做准备；学习关于AR内容交互的模块，包括脱卡功能，手势控制，虚拟按钮调用等，创建简单的demo进行尝试.~~    
 ### week 9 0306  
 &#8195;在b站和youtube多看了一些相关视频，发现ARKit更加适合于本毕业设计对应内容。  
-&#8195;将以下部分完成的内容提交到了GitHub上，[问题4]记录了在使用Git进行提交时遇到的问题以及一些解决办法。  
-&#8195;ARKit是iOS生态的开发平台，使用我自己的电脑以及平板进行了效果测试(MacBook Pro2018，Ipad Pro 9.7)。在尝试过程中遇到了许多问题，问题描述及解决方式见[问题5]。  
+&#8195;将以下部分完成的内容提交到了GitHub上，[问题4](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%984)记录了在使用Git进行提交时遇到的问题以及一些解决办法。  
+&#8195;ARKit是iOS生态的开发平台，使用我自己的电脑以及平板进行了效果测试(MacBook Pro2018，Ipad Pro 9.7)。在尝试过程中遇到了许多问题，问题描述及解决方式见[问题5](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%985)。  
 - 使用ARKit完成了一些基本功能的实现   
   - 开发IDE为XCode，使用原生IOS开发方式，调用SceneKit实现了样例demo，进行飞机展示。  
   
@@ -86,8 +86,8 @@
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/PlaneDemo_1_Console_data.png" width="50%" height="50%"/></div>  
 
-  - 在完成平面检测代码的过程中发现缺失PlaneNode这一个类的内容，尚未找到对应文件[问题6]。目前使用了网络上其他教程的方法，也完成了这一部分功能的实现，运行起来暂无问题，控制台输出状态及数据也是正常合理的。  
+  - 在完成平面检测代码的过程中发现缺失PlaneNode这一个类的内容，尚未找到对应文件[问题6](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%986)。目前使用了网络上其他教程的方法，也完成了这一部分功能的实现，运行起来暂无问题，控制台输出状态及数据也是正常合理的。  
 - 当前计划    
   - 学习如何导入模型，所需格式及如何创建贴图；  
-  - 解决PlaneNode问题；  
+  - ~~解决PlaneNode问题；~~  
   - 对比Objective-C与Swift语言的优缺点，在ARKit方面上的适用性；以及OC语言在IOS AR开发上版本上的要求对后续开发是否存在影响。  
