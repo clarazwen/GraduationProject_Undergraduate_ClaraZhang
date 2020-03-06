@@ -12,6 +12,6 @@
 - [AR interior designer翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/LiteratureTranslation/Translation_ARInteriorDesigner_ReferenceWords.md)
 - [Markerless Augmented Reality翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/LiteratureTranslation/Translation_Markerless_ReferenceWords.md)
 ### 测试效果展示图片  
-为将测试效果的图片集中于一部分展示，独立新建一个仓库进行 [效果展示](https://github.com/clarazwen/showPicture)  
+为将测试效果的图片集中于一部分展示，在本仓库中建立了一个单独的文件夹进行[效果展示](https://github.com/clarazwen/ProgressReport/tree/master/Pictures/TestPictures_Tutorial)  
 
 其余待更新。
