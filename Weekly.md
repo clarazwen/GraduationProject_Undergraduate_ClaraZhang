@@ -35,11 +35,11 @@
 ### week 5  0207  
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/LiteratureTranslation/TranslationShowA.jpg" width="50%" height="50%"/></div>  
 
-初步完成AR interior designer论文的翻译工作。  
+&#8195;初步完成AR interior designer论文的翻译工作。  
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/LiteratureTranslation/issueScreenshot.png" width="50%" height="50%"/></div>    
 
-论文中的部分「算法和专业名词解释」在[AR interior designer翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/LiteratureTranslation/Translation_ARInteriorDesigner_ReferenceWords.md) 中有详细解释。准备开始翻译另外一篇技术性不强，但在应用方面比较有参考价值的论文。   
+&#8195;论文中的部分「算法和专业名词解释」在[AR interior designer翻译记录](https://github.com/clarazwen/ProgressReport/blob/master/LiteratureTranslation/Translation_ARInteriorDesigner_ReferenceWords.md) 中有详细解释。准备开始翻译另外一篇技术性不强，但在应用方面比较有参考价值的论文。   
 开学时间暂延后，毕设开发按照原定计划不变。  
  
 ### week 6  0214   
@@ -71,22 +71,22 @@
 - 使用ARKit完成了一些基本功能的实现   
   - 开发IDE为XCode，使用原生IOS开发方式，调用SceneKit实现了样例demo，进行飞机展示。  
   
-<div align=center><img src="https://github.com/clarazwen/showPicture/blob/master/plane_model.PNG" width="50%" height="50%"/></div>    
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/tree/master/Pictures/TestPictures_Tutorial/plane_model.PNG" width="50%" height="50%"/></div>    
 
   - 使用SpriteKit，MetalKit中XCode的样例文件，实现了点击屏幕展示模型的功能。
   
-<div align=center><img src="https://github.com/clarazwen/showPicture/blob/master/cube_model.PNG" width="40%" height="40%"/></div>
-<div align=center><img src="https://github.com/clarazwen/showPicture/blob/master/emoji_model.PNG" width="40%" height="40%"/></div>  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/tree/master/Pictures/TestPictures_Tutorial/cube_model.PNG" width="40%" height="40%"/></div>
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/tree/master/Pictures/TestPictures_Tutorial/emoji_model.PNG" width="40%" height="40%"/></div>  
 
   - 使用Ipad pro进行效果测试，对Arkit中世界跟踪，跟踪检测，位置坐标记录有了一定了解。  
   - 创建了single View app，从零开始实现了平面检测的代码[PlaneDetection](https://github.com/clarazwen/PlaneDetection_Demo1)，效果图及控制台输出数据如下。    
   
-<div align=center><img src="https://github.com/clarazwen/showPicture/blob/master/PlaneDetect_table.PNG" width="40%" height="40%"/></div>
-<div align=center><img src="https://github.com/clarazwen/showPicture/blob/master/PlaneDetect_table2.PNG" width="40%" height="40%"/></div>  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/tree/master/Pictures/TestPictures_Tutorial/PlaneDetect_table.PNG" width="40%" height="40%"/></div>
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/tree/master/Pictures/TestPictures_Tutorial/PlaneDetect_table2.PNG" width="40%" height="40%"/></div>  
 
-<div align=center><img src="https://github.com/clarazwen/showPicture/blob/master/PlaneDemo_1_Console_data.png" width="50%" height="50%"/></div>  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/tree/master/Pictures/TestPictures_Tutorial/PlaneDemo_1_Console_data.png" width="50%" height="50%"/></div>  
 
-  - 在完成平面检测代码的过程中发现缺失PlaneNode这一个类的内容，尚未找到对应文件[问题5]。目前使用了网络上其他教程的方法，也完成了这一部分功能的实现，运行起来暂无问题，控制台输出状态及数据也是正常合理的。  
+  - 在完成平面检测代码的过程中发现缺失PlaneNode这一个类的内容，尚未找到对应文件[问题6]。目前使用了网络上其他教程的方法，也完成了这一部分功能的实现，运行起来暂无问题，控制台输出状态及数据也是正常合理的。  
 - 当前计划    
   - 学习如何导入模型，所需格式及如何创建贴图；  
   - 解决PlaneNode问题；  
