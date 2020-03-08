@@ -63,4 +63,50 @@ sudo vi /etc/hosts
 **解决办法**：  
 &#8195;因为在参考书籍的后面的学习中都会接着前面的开发继续，在解决了这一个问题之后才可以进行后续的问题。否则暂时使用其他的方式进行同样功能的实现，尚不了解会对未来的开发造成什么影响。      
 &#8195;对于平面检测，在网上找了其他教程同样实现了该功能。在部分代码中找到了类似作用的文件，如Plane类等。    
-&#8195;在不断的寻找中，在CodeForge上找到了一个比较接近的文件[提供了PlaneNode.h的工程](http://www.codeforge.cn/article/522070)。阅读了其工程内对应的ViewController.m文件，发现对于「添加锚点」这一实现方式基本一致。将该文件添加至我自己原有的代码包中，成功运行并获得预期效果。    
+&#8195;在不断的寻找中，在CodeForge上找到了一个比较接近的文件[提供了PlaneNode.h的工程](http://www.codeforge.cn/article/522070)。阅读了其工程内对应的ViewController.m文件，发现对于「添加锚点」这一实现方式基本一致。  
+&#8195; **0308**补充：
+关于PlaneNode类，不同的教程有不同的实现方式。但是大同小异，我找到的这个也不能完全替换，也要根据接口进行实际的修改才行。  
+对于平面上锚点的更新与删除，主要分成   
+~~~  
+initWithPlaneAnchor;  
+updateNodeWithPlaneAnchor;    
+planeNodeWithAnchor;  
+removePlaneNodeWithAnchor; 
+~~~  
+四个函数内容。按照可成功运行的工程文件，仿照完成上述四个功能函数即可，不必过分限制于同名文件。  
+
+### 【问题7】  
+iOS开发系列   
+**问题描述**：The entitlements specified in your application’s Code Signing Entitlements file are invalid, not permitted, or do not match those specified in your provisioning profile. (0xE8008016).    
+**解决办法**：[类似问题参考](https://www.jianshu.com/p/1ba52e347490)，但是我自己只是重启XCode再重新构建即可。
+
+
+### 【问题8】  
+iOS开发系列  
+**问题描述**：[access] This app has crashed because it attempted to access privacy-sensitive data without a usage description.  The app's Info.plist must contain an NSCameraUsageDescription key with a string value explaining to the user how the app uses this data.  
+**解决办法**：本问题出现在构建他人的工程文件时。同样是ARKit系列的项目代码，在下载到本地进行构建尝试时，需要在info.list文件中的Information Property List加入对应camera的权限。  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/info.list_1.png" width="50%" height="50%"/></div>      
+同时，还要在Required device capabilities中加入新的item-arkit。  
+只有完成上述两个设置后，才可以成功运行他人的示例代码。  
+
+### 【问题9】 
+问题描述：对于在unity中使用ARKit的方式，也发现了一些教程中有提到关于unity和iOS原生代码的交互问题。  
+如何在Unity中加入已经在iOS原生平台上完成的功能，在unity中使用arkit sdk并生成iOS应用文件，是接下来要解决的问题。  
+
+### 【问题10】
+问题描述：在目前的开发中，使用到的模型都是苹果官方或者样例代码文件中使用到的模型文件，部分模型文件为.scn。  
+有一些教程中有提到使用3d Max导出.scn文件，这一部分还没有尝试。  
+如果使用unity的话是否模型的格式可以放宽呢？  
+需要解决的是：之前找到的家具模型库的模型文件是否可以使用，且是否可以通过别的建模软件导出为所需的文件。  
+
+
+## 开发过程中可能会踩的坑
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/NameChanged.png" width="40%" height="40%"/></div>     
+在正式版ARKit中，一些函数名称有修改，在后续若碰到这样的情况可以如此解决。   
+
+~~~  
+ARWorldTrackingSessionConfiguration->ARWorldTrackingConfiguration;  
+ARSessionConfiguration->ARConfiguration;  
+~~~    
+
+
