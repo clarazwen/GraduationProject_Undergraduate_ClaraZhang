@@ -26,7 +26,9 @@
 - [maya2019 for Mac V2019.2中文版](https://www.jianshu.com/p/7d2d2ee40b6f)    
 
 【模型部分】
-- [Unity导出Package的场景模型](http://www.manew.com/thread-147408-1-1.html)
+- [Unity导出Package的场景模型](http://www.manew.com/thread-147408-1-1.html)  
+- 在arkit-by-example 的readme文档中一个参考链接  
+All Physically Based Rendering textures come from: [纹理获取](http://freepbr.com/ ) ，使用请注明原网址链接。
 
 【关于Vuforia】
 - [Unity+Vuforia开发增强现实（AR）教程：识别图讲解](https://blog.csdn.net/dzyi_/article/details/51730626)  
@@ -38,7 +40,14 @@
 - [swift与OC语言对比](https://www.jianshu.com/p/e96feea37a88)
 
 【Unity与ARKit的使用】  
-- [unity与ARKit插件实践评测总结](https://www.cnblogs.com/cnxkey/articles/9370409.html)  
+- [unity与ARKit插件实践评测总结](https://www.cnblogs.com/cnxkey/articles/9370409.html)    
+- [unity与ARKit学习使用](https://blog.csdn.net/beijingak/article/details/93630896)  
+- [关于Unity for ARKit（一）](https://blog.csdn.net/ziguang111/article/details/76254269)
+- [从零开始学基于ARKit的Unity3d游戏开发系列1](https://zhuanlan.zhihu.com/p/32224102)
+- [Unity's ARKit for Apple iOS plugin](https://bitbucket.org/Unity-Technologies/unity-arkit-plugin/src/default/)    
+- [使用Unity 测试AR KIT beta版](https://www.jianshu.com/p/62c3adbba51d)    
+- [unity-arkit-plugin](https://bitbucket.org/Unity-Technologies/unity-arkit-plugin)  
+- [Unity 与 ARkit 开发－基础篇](https://www.sohu.com/a/191024221_280780)  
 
 【关于ARKit的介绍与教程】  
 - 介绍
@@ -61,7 +70,8 @@
     - [Part 2: Plane Detection + Visualization](https://blog.markdaws.net/arkit-by-example-part-2-plane-detection-visualization-10f05876d53)    
     - [Part 3: Adding geometry and physics fun](https://blog.markdaws.net/arkit-by-example-part-3-adding-geometry-and-physics-fun-8dd2b90037f2)    
     - [ Part 4: Realism - Lighting & PBR](https://blog.markdaws.net/arkit-by-example-part-4-realism-lighting-pbr-b9a0bedb013e)      
-    - [点击进入github地址](https://github.com/markdaws/arkit-by-example)
+    - [点击进入github地址](https://github.com/markdaws/arkit-by-example)  
+  - [ARKit从入门到精通](https://www.jianshu.com/p/c97b230fa391)    
  
 ## 参考文献  
 - [1]马旭,徐正科,高洁,熊小军.基于增强现实技术的家庭装修平台的创新设计与开发研究[J].数字技术与应用,2017(10):131-133.  
