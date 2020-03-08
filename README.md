@@ -30,5 +30,7 @@
   - [问题6](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%986):缺失PlaneNode类的内容；
 
 - 未解决
+  - [问题9](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%989):Unity与iOS原生代码交互，在unity中实现在xcode上已实现的AR效果。
+  - [问题10](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9810):解决模型文件格式问题。
    
 其余待更新。  
