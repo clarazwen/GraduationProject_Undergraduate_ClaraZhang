@@ -86,11 +86,47 @@
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/PlaneDemo_1_Console_data.png" width="50%" height="50%"/></div>  
 
-  - 在完成平面检测代码的过程中发现缺失PlaneNode这一个类的内容，尚未找到对应文件[问题及解决6](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%986)。目前使用了网络上其他教程的方法，也完成了这一部分功能的实现，运行起来暂无问题，控制台输出状态及数据也是正常合理的。  
+  - 在完成平面检测代码的过程中发现缺失PlaneNode这一个类的内容，对于该情况请见[问题及解决6](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%986)。目前使用了网络上其他教程的方法，也完成了这一部分功能的实现，运行起来暂无问题，控制台输出状态及数据也是正常合理的。  
 - 当前计划    
   - 学习如何导入模型，所需格式及如何创建贴图；  
   - ~~解决PlaneNode问题；~~  
   - 对比Objective-C与Swift语言的优缺点，在ARKit方面上的适用性；以及OC语言在IOS AR开发上版本上的要求对后续开发是否存在影响。  
 ### week 10  
 #### 0307  
+&#8195;对于[问题及解决6](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%986)中的情况，在阅读了接下来的教程中的内容，我认为应该仅是类文件缺失的原因，不涉及的ARKit的版本问题。同样，我在网上查找了类似功能的代码文件，实现方法大同小异，且同样可以运行他人的工程文件。   
+&#8195;对于关于ARKit开发中的环境设置以及硬件要求，我的都是满足条件的，记录如下：  
+~~~
+Macbook Pro(2018)、XCode(Version 9.4.1)；  
+iPad Pro(9.7 inch)，iOS 13.3;
+Unity:2019.2.21f1与2017.4.36c1  
+~~~    
+&#8195;此外，关于Objective-C语言与Swift语言的选择问题。对于iOS/Mac的开发，目前主流都为swift语言，Xcode官网的更新都是只有swift的介绍，学习的话当然也是以它为主。其实在之前的开发过程中，部分教程中使用OC语言进行入门的介绍，因此我也按照一些参考资料来使用OC语言进行尝试。但是后期的开发不是只在iOS原生开发平台上进行的，开发平台仍然是Unity。   
+&#8195;Unity支持ARkit，并且苹果最新发布的ARKit3.0的主要功能在ARFoudation已经集成进来了（尽管新功能都是动作捕捉，面部追踪等我用不到的）。  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/ARFoundation-ARCore-ARKit.jpg" width="50%" height="50%"/></div>    
 
+&#8195;所以接下来在XCode上进行iOS的原生开发学习过程，会根据可以找到的教程来决定使用语言，而实际的开发过程会在Unity中进行。    
+&#8195;新的功能实现：  
+- 实现了简单的ui，点击【开启AR】才能开启摄像头进入界面。点击屏幕展示家具模型，模型大小随摄像头点击位置的远近有变化。至少加载了一个家具模型，和毕业设计中的家居设计有了关系....    
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/showChair.png" width="40%" height="40%"/></div>      
+
+- 实现了点击模型进行模型材质的更换，具体为更换模型的纹理贴图等外部表现。   
+这一部分与预期计划的调整模型外观，如材质，颜色等相匹配。接下来需要尝试更换为实际开发所用的家具模型再进行对应功能的实现。     
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/tap_changeTexture_1/tap_changeTexture_7.png" width="40%" height="40%"/></div>     
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/tap_changeTexture_1/tap_changeTexture.gif" width="40%" height="40%"/></div>     
+
+- 尝试了AR测量，运行了现有demo实现了使用ARRuler在现实世界中进行测距，这个功能与iPhone/iPad中的测距仪应用起来的方式是一样的。  
+这一部分与预期计划中的判断家具尺寸是否符合当前房屋尺寸的功能比较匹配。目前也只是一个别人的单个功能的小demo，接下来仔细了解一下其实现方式，重新进行功能开发。  
+
+### 0308  
+&#8195;在不同的教程中找到了不同的实现平面检测的办法，在更改源代码中planeNode内容时，发现了另外一种效果更优的实现方式，目前已整合到自己的代码中。前后两类识别效果对比如下：  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/PlaneDetect_bed.PNG" width="35%" height="35%"/></div>   <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/PlaneDetect_method2_img1.png" width="35%" height="35%"/></div>     
+&#8195;对比可以看出，新方法对于识别的效果要更好。生成的平面状态要更加的稳定，识别范围更广，可以补充到平面更多的边缘。    
+
+接下来的计划：
+- [问题与解决9](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%989)学习unity与iOS原生代码之间的交互。  
+- 尝试实现模型尺寸的调整等。  
+- 了解具体所需模型的格式，使用【非官方测试模型/非他人代码所提供的模型】进行展示。  
+- 一些功能其实还和预期效果有很大差别。比如现在放置椅子模型这个，它没有对场景中其他物体进行检测，也就是说，它就算一只脚在床上一只脚在地上也不会出现问题....顶多是模型覆盖上去了，应该会有物体检测和碰撞检测的方法吧。
