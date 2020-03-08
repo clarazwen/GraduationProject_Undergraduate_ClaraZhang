@@ -122,7 +122,7 @@ Unity:2019.2.21f1与2017.4.36c1
 
 ### 0308  
 &#8195;在不同的教程中找到了不同的实现平面检测的办法，在更改源代码中planeNode内容时，发现了另外一种效果更优的实现方式，目前已整合到自己的代码中。前后两类识别效果对比如下：  
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/PlaneDetect_bed.PNG" width="35%" height="35%"/></div>   <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/PlaneDetect_method2_img1.png" width="35%" height="35%"/></div>     
+<img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/PlaneDetect_bed.PNG" width="35%" height="35%"/>   <img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/PlaneDetect_method2_img1.png" width="35%" height="35%"/>  
 &#8195;对比可以看出，新方法对于识别的效果要更好。生成的平面状态要更加的稳定，识别范围更广，可以补充到平面更多的边缘。    
 
 接下来的计划：
