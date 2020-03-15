@@ -165,9 +165,9 @@ iPad端的截屏。
 
   - 导入了小飞机的模型，并且通过调整quality中shadow distance的具体参数，改善了其阴影效果以及提高模型细节展示。以下是飞机排队的展示（bushi。
     
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UnityARKitFirst/ToyPlanePlacement1.png” width="50%" height="50%"/></div>    
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UnityARKitFirst/ToyPlanePlacement1.png" width="50%" height="50%"/></div>      
 
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UnityARKitFirst/ToyPlanePlacement2.png” width="50%" height="50%"/></div>   
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UnityARKitFirst/ToyPlanePlacement1.png" width="50%" height="50%"/></div>   
 
 - 实现了对放置到场景中的模型的一些简单操作，如模型的平移，旋转，缩放（有图好几张）。  
 
