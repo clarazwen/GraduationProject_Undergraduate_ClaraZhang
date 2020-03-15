@@ -18,6 +18,8 @@
 - [适合新手超基本教程：Mac如何上传项目源代码至GitHub](https://blog.csdn.net/weixin_42003092/article/details/79971788)  
 - [mac修改host](https://www.jianshu.com/p/fa41e05fe2d3)  
 `192.30.253.112 github.com `  
+- [git lfs安装、大文件版本管理](https://www.jianshu.com/p/0d1a54295208) 
+- [使用git clone命令出现error: RPC failed; curl 18 transfer closed with outstanding read data remaining问题](https://blog.csdn.net/u013983033/article/details/89487308). 
 
 【可以上传本地文件转换成纯净图片链接的小网站】  
 - [图片链接生成](https://sm.ms/)  
@@ -28,11 +30,26 @@
 【模型部分】
 - [Unity导出Package的场景模型](http://www.manew.com/thread-147408-1-1.html)  
 - 在arkit-by-example 的readme文档中一个参考链接  
-All Physically Based Rendering textures come from: [纹理获取](http://freepbr.com/ ) ，使用请注明原网址链接。
+All Physically Based Rendering textures come from: [纹理获取](http://freepbr.com/ ) ，使用请注明原网址链接。  
+- [cg模型网](https://www.cgmodel.com/)  
+- [三维模型网站：sketchfab-Publish & find 3D models online](https://sketchfab.com/3d-models)  
+- [全球首款可视化3D/AR交互内容在线编辑器](https://www.ddd.online/)
+- [Unity3D中Prefab的简单介绍](http://gad.qq.com/article/detail/289339)    
+- [unity中触摸改变物体的移动缩放](https://blog.csdn.net/xuxinqingjiao1/article/details/78925025)    
+- 关于XCode中， .scn/.obj/.dae文件的格式：  
+  - [SceneKit | 加载 3D模型(obj/scn/dae)到你的AR项目中](https://www.jianshu.com/p/15101aa0eefe)   
+  - [三维文件格式知多少](http://www.bgteach.com/article/132)
+
+
 
 【关于Vuforia】
 - [Unity+Vuforia开发增强现实（AR）教程：识别图讲解](https://blog.csdn.net/dzyi_/article/details/51730626)  
 - [Unity用Vuforia做AR实现脱卡效果](https://blog.csdn.net/qwe161819/article/details/76107105)
+
+【iOS/XCode开发相关】  
+- [XCode界面设计](https://www.cnblogs.com/xw885/articles/3679855.html)
+- [iOS和Unity交互之界面跳转](https://blog.csdn.net/cherish_joy/article/details/72770624)
+- [Unity与原生iOS融合——实现简单界面跳转](https://blog.csdn.net/aiyan1111111/article/details/51774618)
 
 【Swift语言】  
 - [apple/Swift](https://github.com/apple/swift)      
@@ -40,6 +57,7 @@ All Physically Based Rendering textures come from: [纹理获取](http://freepbr
 - [swift与OC语言对比](https://www.jianshu.com/p/e96feea37a88)
 
 【Unity与ARKit的使用】  
+ARKit在unity中的应用：既要有模型的概念，又要有很多属性，比如物理特性、纹理、材质、光照反射等；还要有场景的概念，场景内的模型可以互相影响，并且会根据写好的逻辑作出反应；还要拥有视角的概念，可以控制玩家如何在游戏中“看”这个环境。 
 - [unity与ARKit插件实践评测总结](https://www.cnblogs.com/cnxkey/articles/9370409.html)    
 - [unity与ARKit学习使用](https://blog.csdn.net/beijingak/article/details/93630896)  
 - [关于Unity for ARKit（一）](https://blog.csdn.net/ziguang111/article/details/76254269)
@@ -47,7 +65,21 @@ All Physically Based Rendering textures come from: [纹理获取](http://freepbr
 - [Unity's ARKit for Apple iOS plugin](https://bitbucket.org/Unity-Technologies/unity-arkit-plugin/src/default/)    
 - [使用Unity 测试AR KIT beta版](https://www.jianshu.com/p/62c3adbba51d)    
 - [unity-arkit-plugin](https://bitbucket.org/Unity-Technologies/unity-arkit-plugin)  
-- [Unity 与 ARkit 开发－基础篇](https://www.sohu.com/a/191024221_280780)  
+- [Unity 与 ARkit 开发－基础篇](https://www.sohu.com/a/191024221_280780)   
+- [Unity ARKit Plugin 分析](https://www.jianshu.com/p/15eb1c27fe0b)  
+- [unity官方About ARKit XR Plugin3.0](https://docs.unity3d.com/Packages/com.unity.xr.arkit@3.0/manual/index.html)    
+- [bitbucket存档unity-arkit-plugin的地址](https://bitbucket.org/Unity-Technologies/unity-arkit-plugin)  
+- [ARFoundation之路－概述](https://blog.csdn.net/yolon3000/article/details/91445797)   
+- [Unity ARKit Plugin在游戏蛮牛的下载地址](http://www.manew.com/thread-143993-1-1.html)  
+- [知乎专栏苹果ARKit开发入门系列2-Unity ARKit Plugin简介](https://zhuanlan.zhihu.com/p/29048586?from_voters_page=true)     
+- [unity官方教程](https://assetstore.unity.com/essentials/tutorial-projects)    
+- [ARKit 1.0丨 002：ARKit Remote的使用(手机App与Unity的互联)](https://blog.csdn.net/weixin_38239050/article/details/86777118)    
+- [Unity-ARKit入门](https://blog.csdn.net/qq373011556/article/details/81365783)   
+- [知乎一个专栏作家关于unity+arkit的主页](http://icode.fun/ask/forum.php)    
+- [ARKit以及ARKitRemote](https://www.jianshu.com/p/51b17dfe9fd8)    
+- [Unity + ARKit 学习使用](https://blog.csdn.net/beijingak/article/details/93630896)   
+- [Unity 移动端简单手势控制（移动，旋转，缩放）](https://blog.csdn.net/z502768095/article/details/78001839)
+- 未使用 [iOS ARKit 教程：不触摸屏幕，用空气中的手势作画](https://www.jianshu.com/p/4cbe6b6b8ea2)   
 
 【关于ARKit的介绍与教程】  
 - 介绍
