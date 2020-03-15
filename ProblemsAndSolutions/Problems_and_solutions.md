@@ -99,6 +99,30 @@ iOS开发系列
 如果使用unity的话是否模型的格式可以放宽呢？  
 需要解决的是：之前找到的家具模型库的模型文件是否可以使用，且是否可以通过别的建模软件导出为所需的文件。  
 
+### 【问题11】
+**问题描述**：Unity-ARKit-Plugin在asset store中不再支持  
+**解决办法**：好像是因为unity现在比较推ARFoundation，也就是ARKit和ARCore的整合插件。网络上大部分教程中所提到的插件Unity-ARKit-Plugin在asset store中不再支持，只能在网络上找网盘下载了....如有哪位同学需要该package可以联系我。  
+
+### 【问题12】  
+**问题描述**：测试样例ARKitRemote运行起来非常的卡顿，界面刷新非常慢。  
+**解决办法**：几乎已经卡到没办法有任何有效的操作了，只是可以运行，但是console还是输出了许多错误。  
+<div align=center><img src=“https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/screenshot_arkitremote_test1.jpg “ width="50%" height="50%"/></div>     
+
+以上这种远程的奇怪工程我不再试了，所以这些问题我也不准备解决了。解决本问题的方式是逃避问题。下方是在csdn博客上找到的其中一种解决办法，未尝试，供参考。  
+<div align=center><img src=“https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/ProblemPictures/ARkitRemoteStuck.png“ width="50%" height="50%"/></div>     
+
+### 【问题13】  
+**问题描述**：ARSession中arsession.Raycast()函数丢失  
+**解决办法**：参考：[unity中的提问Foundation AR, ARSessionOrigin doesn't reconize the Raycast method?](https://forum.unity.com/threads/foundation-ar-arsessionorigin-doesnt-reconize-the-raycast-method.680296/#post-5324931)以及
+[在教程作者的github上的issue中的问题ARSessionOrigin has no member Raycast](https://github.com/TheUnityWorkbench/tuw-arfoundation-demo/issues/1)  
+package manager中有提供ARKit，ARFoundation等包。注意不同版本下有细微的差别，比如ARKit 3.0版本就没有Raycast函数了，只能降级回1.0.0进行操作。当然，同样的功能可以使用新版本中其他的函数进行替换。   
+
+### 【问题14】  
+**问题描述**：.max文件只能用3dmax打开，而且我的MacBook pro不能安装3DMax  
+**解决办法**：已经让别人把我的小dell邮寄过来了...    
+
+
+
 
 ## 开发过程中可能会踩的坑  
 
