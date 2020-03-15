@@ -27,10 +27,15 @@
   - [问题3](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%983)  :学习过程中了解到Vuforia主要使用各种「识别」的方式来实现AR效果，然而本毕业设计并不涉及到图像识别；   
   - [问题4](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%984):使用git命令提交文件时出错； 
   - [问题5](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%985):XCode在使用真机（ipad）调试时出现部分问题；
-  - [问题6](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%986):缺失PlaneNode类的内容；
-
-- 未解决
+  - [问题6](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%986):缺失PlaneNode类的内容；  
   - [问题9](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%989):Unity与iOS原生代码交互，在unity中实现在xcode上已实现的AR效果。
   - [问题10](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9810):解决模型文件格式问题。
-   
+  - [问题11](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9811):Unity-ARKit-Plugin在asset store中不再支持  
+  - [问题12](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9812):测试样例ARKitRemote运行起来非常的卡顿，界面刷新非常慢。  
+  - [问题13](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9813):ARSession中arsession.Raycast()函数丢失   
+
+- 未解决 
+  - [问题14](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9814):.max文件只能用3dmax打开，而macOS无法下载3Dmax
+
+
 其余待更新。  
