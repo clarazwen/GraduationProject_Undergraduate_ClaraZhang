@@ -88,10 +88,11 @@
 
   - 在完成平面检测代码的过程中发现缺失PlaneNode这一个类的内容，对于该情况请见[问题及解决6](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%986)。目前使用了网络上其他教程的方法，也完成了这一部分功能的实现，运行起来暂无问题，控制台输出状态及数据也是正常合理的。  
 - 当前计划    
-  - 学习如何导入模型，所需格式及如何创建贴图；  
+  - ~~学习如何导入模型，所需格式及如何创建贴图；~~  
   - ~~解决PlaneNode问题；~~  
-  - 对比Objective-C与Swift语言的优缺点，在ARKit方面上的适用性；以及OC语言在IOS AR开发上版本上的要求对后续开发是否存在影响。  
-### week 10  
+  - ~~对比Objective-C与Swift语言的优缺点，在ARKit方面上的适用性；以及OC语言在IOS AR开发上版本上的要求对后续开发是否存在影响。~~ 
+ 
+### week 10   0313
 #### 0307  
 &#8195;对于[问题及解决6](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%986)中的情况，在阅读了接下来的教程中的内容，我认为应该仅是类文件缺失的原因，不涉及的ARKit的版本问题。同样，我在网上查找了类似功能的代码文件，实现方法大同小异，且同样可以运行他人的工程文件。   
 &#8195;对于关于ARKit开发中的环境设置以及硬件要求，我的都是满足条件的，记录如下：  
@@ -126,7 +127,73 @@ Unity:2019.2.21f1与2017.4.36c1
 &#8195;对比可以看出，新方法对于识别的效果要更好。生成的平面状态要更加的稳定，识别范围更广，可以补充到平面更多的边缘。    
 
 接下来的计划：
-- [问题与解决9](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%989)学习unity与iOS原生代码之间的交互。  
-- 尝试实现模型尺寸的调整等。  
-- 了解具体所需模型的格式，使用【非官方测试模型/非他人代码所提供的模型】进行展示。  
-- 一些功能其实还和预期效果有很大差别。比如现在放置椅子模型这个，它没有对场景中其他物体进行检测，也就是说，它就算一只脚在床上一只脚在地上也不会出现问题....顶多是模型覆盖上去了，应该会有物体检测和碰撞检测的方法吧。
+- ~~[问题与解决9](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%989)学习unity与iOS原生代码之间的交互。~~  
+- ~~尝试实现模型尺寸的调整等。~~  
+- ~~了解具体所需模型的格式，使用【非官方测试模型/非他人代码所提供的模型】进行展示。~~  
+- 一些功能其实还和预期效果有很大差别。比如现在放置椅子模型这个，它没有对场景中其他物体进行检测，也就是说，它就算一只脚在床上一只脚在地上也不会出现问题....顶多是模型覆盖上去了，应该会有物体检测和碰撞检测的方法吧。  
+
+#### 0313  成功使用unity再次完成了之前的功能，并进行了一些补充。  
+- 学习了ARKit在Unity中的使用，首先在unity中加载相关的package； 
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/ARpackageImport.png" width="50%" height="50%"/></div>     
+
+- 第一个样例工程是ARKit Remote：是使用远程的方式将iPad扫描到的影像在unity的Game中进行展示，同时实现点击显示模型的效果。
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UnityARKitFirst/ARKitRemoteShot1.png" width="50%" height="50%"/></div>     
+
+套娃式展示，电脑端截屏。  
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UnityARKitFirst/ARKitRemoteShot2.png" width="50%" height="50%"/></div>     
+
+iPad端的截屏。  
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UnityARKitFirst/UnityARKitFirstTest1.png" width="50%" height="50%"/></div>     
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UnityARKitFirst/UnityARKitFirstTest2.png" width="50%" height="50%"/></div>     
+
+（但这个例子其实一点用也没有....见[问题12](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9812)）
+
+
+- 参考 [Getting Started With ARFoundation in Unity (ARKit, ARCore)](https://www.youtube.com/watch?v=Ml2UakwRxjk&feature=youtu.be) ，非常系统地实现了一些基础功能。
+  - 首先进行初始的参数设定修改。 
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UnityARKitFirst/InitParameter.png" width="50%" height="50%"/></div>  
+
+  - 对「点击屏幕放置模型」的视觉效果做改善。 
+调用ARsession和AR session origin，将ARCamera作为主摄像机。使用Raycast函数进行射线检测，从而确定模型的目标放置位置。  
+  
+  - 使用Quad并增添贴图的方式丰富了候选位置的展示图片。
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UnityARKitFirst/IndexQuad.png" width="50%" height="50%"/></div> 
+
+  - 导入了小飞机的模型，并且通过调整quality中shadow distance的具体参数，改善了其阴影效果以及提高模型细节展示。以下是飞机排队的展示（bushi。
+    
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UnityARKitFirst/ToyPlanePlacement1.png” width="50%" height="50%"/></div>    
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UnityARKitFirst/ToyPlanePlacement2.png” width="50%" height="50%"/></div>   
+
+- 实现了对放置到场景中的模型的一些简单操作，如模型的平移，旋转，缩放（有图好几张）。  
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/GestureMove/BedPlacementMiddle.png" width="50%" height="50%"/></div>   
+
+  - **放大模型的一种比较好的方式是缩小场景的尺寸。** 如果直接调整模型的scale，有的时候过分缩放会改变物体的客观物理现象。在这里，我们选择调整AR session origin的scale进行反向缩放。比如要将模型缩小为1/10，只要将AR session origin的scale调整为10即可。毕竟AR是将真实世界和虚拟世界结合在一起的技术，有的尺寸不能仅满足于虚拟世界，而要和现实世界的物体进行一个对比。以下是捏挤屏幕进行缩放的效果图。  
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/GestureMove/BedPlacementBig.png" width="50%" height="50%"/></div>     
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/GestureMove/BedPlacementSmall.png" width="50%" height="50%"/></div>     
+
+#### 对上次内容的解释
+- 关于.scn的格式问题。在iOS开发中，因为Scenekit和Xcode是可以进行三维建模的，经了解.scn是SceneKit对应的场景文件的文件后缀，独立存在于xcode平台。对其他格式的文件，可以使用.dae格式进行中转，再在xcode中转换为.scn文件。其实还是挺麻烦的...  
+- 在使用unity中的ARKit插件，以及AR Foundation插件后，模型的格式不再是一个棘手的问题。在Assets store中就可以下载到较多完成的家具模型。[问题14](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9814)
+
+#### 注意  
+- 为了避开点击屏幕放置模型与缩放手势的冲突，设定了三只手指同时点击屏幕才能进行模型的摆放；一只手指滑动进行模型的平移，两只手指的挤捏实现模型的旋转和缩放；  
+
+#### 任务安排
+- 曾在iOS开发中实现的点击切换材质/颜色尚未实现，这一部分没有类似的教程，只能自己摸索一下。  
+
+- 接下来的学习会多学习unity的开发。目前的开发都比较散，属于独立功能与独立功能的开发。接下来要想出一个整体的逻辑架构，不能总是散装着来....   
+因为unity可以和iOS进行交互，也就是说可以在一个iOS工程中加入AR的工程。所以，我准备使用iOS进行app界面设计与不涉及到AR功能的界面的开发，再在unity中进行AR功能的开发将其整合进入总的iOS工程中。毕竟unity中build iOS端的应用的方式也是先生成.xcodeproj文件，再在xcode中将应用发布到iPad上。也就是，总体的框架与AR无关的放在iOS端，一些与AR相关的功能放在unity中实现。  
+- 目前对家具放置等情况，它其实没有摆放到实际的地面上，就是很虚伪。然而宜家的AR视频中就非常非常的真实，这部分需要仔细思索一下....  
+- 对于模型尺寸等问题，进行缩放之后需要和AR Ruler联系起来。毕竟毕业设计中对模型进行缩放的初衷是为了「找到适合自己房间的家具的合适尺寸」。因此我们需要提供调整之后对应真实世界的尺寸，这一部分使用AR Ruler比较合适。  
+
+
+暂时想到这里，待更新。
+
