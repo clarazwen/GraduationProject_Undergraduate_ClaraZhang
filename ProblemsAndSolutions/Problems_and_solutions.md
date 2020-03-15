@@ -105,11 +105,11 @@ iOS开发系列
 
 ### 【问题12】  
 **问题描述**：测试样例ARKitRemote运行起来非常的卡顿，界面刷新非常慢。  
-**解决办法**：几乎已经卡到没办法有任何有效的操作了，只是可以运行，但是console还是输出了许多错误。  
-<div align=center><img src=“https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/screenshot_arkitremote_test1.jpg “ width="50%" height="50%"/></div>     
+**解决办法**：几乎已经卡到没办法有任何有效的操作了，只是可以运行，但是console还是输出了许多错误。   
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/TestPictures_Tutorial/screenshot_arkitremote_test1.jpg" width="50%" height="50%"/></div>   
 
 以上这种远程的奇怪工程我不再试了，所以这些问题我也不准备解决了。解决本问题的方式是逃避问题。下方是在csdn博客上找到的其中一种解决办法，未尝试，供参考。  
-<div align=center><img src=“https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/ProblemPictures/ARkitRemoteStuck.png“ width="50%" height="50%"/></div>     
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/ProblemPictures/ARkitRemoteStuck.png" width="50%" height="50%"/></div>  
 
 ### 【问题13】  
 **问题描述**：ARSession中arsession.Raycast()函数丢失  
