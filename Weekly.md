@@ -169,7 +169,7 @@ iPad端的截屏。
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UnityARKitFirst/ToyPlanePlacement2.png" width="50%" height="50%"/></div>   
 
-- 实现了对放置到场景中的模型的一些简单操作，如模型的平移，旋转，缩放（有图好几张）。  
+- 实现了对放置到场景中的模型的一些简单操作，如模型的平移，旋转，缩放。  
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/GestureMove/BedPlacementMiddle.png" width="50%" height="50%"/></div>   
 
