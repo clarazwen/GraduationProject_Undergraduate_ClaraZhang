@@ -50,11 +50,23 @@ All Physically Based Rendering textures come from: [纹理获取](http://freepbr
 - [XCode界面设计](https://www.cnblogs.com/xw885/articles/3679855.html)
 - [iOS和Unity交互之界面跳转](https://blog.csdn.net/cherish_joy/article/details/72770624)
 - [Unity与原生iOS融合——实现简单界面跳转](https://blog.csdn.net/aiyan1111111/article/details/51774618)
-
+- [iOS APP UI设计之从效果图到UI切图](https://www.jianshu.com/p/3705ac39af18)  
 【Swift语言】  
 - [apple/Swift](https://github.com/apple/swift)      
 - [The Swift Programming Language ](https://swift.org/)    
-- [swift与OC语言对比](https://www.jianshu.com/p/e96feea37a88)
+- [swift与OC语言对比](https://www.jianshu.com/p/e96feea37a88)    
+
+【Unity与iOS/XCode交互】  
+- [iOS项目中添加PrefixHeader.pch文件](https://blog.csdn.net/qq_25436157/article/details/92830869)
+- [unity与原生iOS项目的整合（一）](https://blog.csdn.net/Elena_engineer/article/details/75969617)  
+- [Elena_engineer主页：unity与iOS原生交互的代码](https://me.csdn.net/Elena_engineer)  
+- [Unity导出的iOS工程进行整合，解决CPU占用过大问题](https://www.jianshu.com/p/36f374f3e5e2)  
+- [Unity导出的项目整合到已有的IOS项目中](https://www.jianshu.com/p/3ec42d546982)  
+- [史上最全unity与xcode集成教程](https://www.jianshu.com/p/3d9ae5244d82)  
+- [unity打包iOS并向iOS传递消息](https://www.jianshu.com/p/e8e70d287a4e)   
+- [ARKit 与Unity桥接](https://www.jianshu.com/p/aae0dc754aa3)  
+
+
 
 【Unity与ARKit的使用】  
 ARKit在unity中的应用：既要有模型的概念，又要有很多属性，比如物理特性、纹理、材质、光照反射等；还要有场景的概念，场景内的模型可以互相影响，并且会根据写好的逻辑作出反应；还要拥有视角的概念，可以控制玩家如何在游戏中“看”这个环境。 
@@ -79,10 +91,23 @@ ARKit在unity中的应用：既要有模型的概念，又要有很多属性，�
 - [ARKit以及ARKitRemote](https://www.jianshu.com/p/51b17dfe9fd8)    
 - [Unity + ARKit 学习使用](https://blog.csdn.net/beijingak/article/details/93630896)   
 - [Unity 移动端简单手势控制（移动，旋转，缩放）](https://blog.csdn.net/z502768095/article/details/78001839)
-- 未使用 [iOS ARKit 教程：不触摸屏幕，用空气中的手势作画](https://www.jianshu.com/p/4cbe6b6b8ea2)   
+- [iOS ARKit 教程：不触摸屏幕，用空气中的手势作画](https://www.jianshu.com/p/4cbe6b6b8ea2)   
+- [上一个链接的原文档：iOS ARKit Tutorial: Drawing in the Air with Bare Fingers](https://www.toptal.com/swift/ios-arkit-tutorial-drawing-in-air-with-fingers) 
+- [Unity AR Foundation 和 CoreML: 实现手部的检测和追踪](http://www.manongjc.com/detail/9-lbmzmjrojttpppi.html)  
+- [UI：Unity UGUI（六）Toggle（开关/切换](https://blog.csdn.net/NCZ9_/article/details/86307566)   
+- [Unity控制物体显示和隐藏](https://blog.csdn.net/wwlcsdn000/article/details/80658155)    
+- [UI：Unity中通过点击按钮切换场景](https://blog.csdn.net/yaoning6768/article/details/88083530)    
+- [ARDraw](https://github.com/ojama/ARDraw)  
+- [ARMeasure的GitHub](https://github.com/imai-yuki/ARMeasure)    
+- [与ARMeasure GitHub对应的作者个人主页](http://lovewcycle.com/2018/11/19/unityarkit3/)    
+- [Unity 移动端简单手势控制(移动，旋转，缩放)](https://blog.csdn.net/z502768095/article/details/78001839)  
+- [Unity 之 移动设备的触控操作](https://blog.csdn.net/AnYuanLzh/article/details/18367941)  
+
 
 【关于ARKit的介绍与教程】  
-- 介绍
+- 介绍  
+  - [增强现实技术 苹果官方文档](https://developer.apple.com/augmented-reality/)  
+  - [arkit苹果官方文档](https://developer.apple.com/documentation/arkit/). 
   - [Getting Started With ARFoundation in Unity (ARKit, ARCore)](https://www.youtube.com/watch?v=Ml2UakwRxjk&feature=youtu.be)    
   - [B站视频 ARKit入门](https://www.bilibili.com/video/av77532231)
   - [HouseAR-基于ARKit的增强现实应用](https://www.bilibili.com/video/av36920062)  
@@ -103,7 +128,14 @@ ARKit在unity中的应用：既要有模型的概念，又要有很多属性，�
     - [Part 3: Adding geometry and physics fun](https://blog.markdaws.net/arkit-by-example-part-3-adding-geometry-and-physics-fun-8dd2b90037f2)    
     - [ Part 4: Realism - Lighting & PBR](https://blog.markdaws.net/arkit-by-example-part-4-realism-lighting-pbr-b9a0bedb013e)      
     - [点击进入github地址](https://github.com/markdaws/arkit-by-example)  
-  - [ARKit从入门到精通](https://www.jianshu.com/p/c97b230fa391)    
+  - [ARKit从入门到精通](https://www.jianshu.com/p/c97b230fa391)       
+  - [精选的ARKit项目和资源的精选列表](https://www.jianshu.com/p/c59e45e1d98e)      
+  - [ARKit教程合集](https://github.com/olucurious/Awesome-ARKit#tutorials)  
+
+ ### 仅保存：
+- [Unity AR 传送门教程(1~4)](https://www.bilibili.com/video/av76556998/?spm_id_from=333.788.videocard.2)    
+- [Augmented Reality Portal using ARCore and Unity - AR Portal Tutorial](https://www.youtube.com/watch?v=BeoY5mRm1UY)  
+
  
 ## 参考文献  
 - [1]马旭,徐正科,高洁,熊小军.基于增强现实技术的家庭装修平台的创新设计与开发研究[J].数字技术与应用,2017(10):131-133.  
