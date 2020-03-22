@@ -196,23 +196,64 @@ iPad端的截屏。
 
 ### week 12 0320  
 #### 增加功能：  
-- 完善了一些功能，*模型的拖动调整位置* 、对于已经放入场景中但觉得效果不好的模型-> *双击即可删除模型* ； （补gif）
-- 使用unity的ui完成了*模型选择*功能的完成。选中不同的模型即可在屏幕上放置不同的模型；（补图）  
-- 尝试了AR Paint功能，本意是直接在空间中进行绘制示意图，起到标记等功能。搜集了一些现有的演示gif，感觉效果比较一般。要么能绘制但是识别效果很差很不稳定，要么只能在当前视窗绘制，没有位置记录的功能。这个功能待考虑和尝试。（补图）    
-- 实现了AR Measure，用了ARKit本身插件中的unity AR generate Plane脚本生成平面。可以测量当前场景的两点间的距离或三点平面的面积。误差比较小，基本控制在1cm之内。可完善。（补gif）  
+- 完善了一些功能，*模型的拖动调整位置* ，对于已经放入场景中但觉得效果不好的模型-> *双击即可删除模型* ；  
+  - 选择是否开启平面检测，如果开启该功能并且检测到了平面即显示指示图标；
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo1.png"  width="70%" height="70%"/></div>     
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo2.png"  width="70%" height="70%"/></div>    
+
+  - 选择对应的toggle，放置对应的模型，并且可以任意对其进行变换（目前只用了toggle和button来实现，之后再进行美化...）；   
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo3.png"  width="70%" height="70%"/></div>   
+
+  - 双击模型删除模型；  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo4.png"  width="70%" height="70%"/></div>    
+
+  - 更改了对应的toggle之后，可以放置不同的模型（飞机），同样进行基本变换；
+  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo5.png"  width="70%" height="70%"/></div>    
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo6.png"  width="70%" height="70%"/></div>   
+
+  - 放置不同风格的床，变换，删除；  
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo7.png"  width="70%" height="70%"/></div>   
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo_1.gif"  width="70%" height="70%"/></div>   
+
+- 使用unity的ui完成了*模型选择*功能的完成。选中不同的模型即可在屏幕上放置不同的模型； 
+ 
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo_2.gif"  width="70%" height="70%"/></div>   
+
+- 尝试了AR Paint功能，本意是直接在空间中进行绘制示意图，起到标记等功能。搜集了一些现有的演示gif，感觉效果比较一般。要么能绘制但是识别效果很差很不稳定，要么只能在当前视窗绘制，没有位置记录的功能。这个功能待考虑和尝试。（图）    
+- 实现了AR Measure，用了ARKit本身插件中的unity AR generate Plane脚本生成平面。可以测量当前场景的两点间的距离或三点平面的面积。误差比较小，基本控制在1cm之内。可完善。   
+  - 首先调用插件中的AR generate plane生成可检测距离的平面，在测量点上点击「mark」放置标记。放置两个标记即可显示当前两点的「实际距离」，结果比较准，控制在1cm的误差之内；  
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/ARMeasure/ARMeasure_01.gif"  width="70%" height="70%"/></div>     
+
+  - 再继续放置一个marker，即可测量三点间的面积。  
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/ARMeasure/ARMeasure_02.gif"  width="70%" height="70%"/></div>   
+
 - 实现了不同场景之间的切换，功能也同样可以使用。   
 
 #### 存在问题：  
 - 将unity和iOS工程的整合比我想的要难许多....我以为就修改些参数改一下入口就行了。现在使用unity的ui在进行开发，先完成功能，再不断尝试二者的整合。  
+- 整体性不强，ui急需完善。参考iOS端自带的AR工具，如测距仪。
 
 #### 任务安排：  
 
 - 增加场景保存的功能：对于放入场景的家具模型，经调整完成后保存其位置和其他基本设置。可以接着进行其他模型的操作，而不会影响前一个模型的状态。  
 - 手指拖动模型更改位置的优化，不能总靠揣摩着来...  
-- 位置测量的完善，将当前的测量两点间距离的功能进行后续的开发，完成一些不规则平面墙壁边缘的距离标记以及加和。同时可以简单估算场景内的实际面积。预期效果如下：（补图）
+- 位置测量的完善，将当前的测量两点间距离的功能进行后续的开发，完成一些不规则平面墙壁边缘的距离闭环标记以及加和，同时可以简单估算场景内的实际面积。预期效果如下：  
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/ARMeasure/HouseAR2.png"  width="70%" height="70%"/></div>   
+
 - 对于更换模型，目前使用的只是文字的指示，准备加入模型缩略图展示再进行选中的功能，同时加入模型材质或颜色的更换。  
 - iOS的UI设计也要一直跟着。  
+
 - 一个问题：中期检查都要准备啥....（（（（（（
 
 暂时想到这里，待更新。
+
 
