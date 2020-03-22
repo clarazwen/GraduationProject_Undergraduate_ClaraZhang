@@ -35,8 +35,7 @@
   - [问题13](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9813):ARSession中arsession.Raycast()函数丢失   
   - [问题14](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9814):.max文件只能用3dmax打开，而macOS无法下载3Dmax   
   - [问题15](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9815):苹果免费的开发app ID一周只有10个，超过10个使用之前用过的id即可。   
-  - [问题19]
-(https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9819):这个我不打算解决并且我也解决不了...在将摄像头对准墙壁或其他比较干净整洁的平面时，往往无法识别到特征点.
+  - [问题19](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9819) ：这个我不打算解决并且我也解决不了...在将摄像头对准墙壁或其他比较干净整洁的平面时，往往无法识别到特征点.
 
 - 未解决  
   - [问题16](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9816):iOS与unity代码间的交互   
