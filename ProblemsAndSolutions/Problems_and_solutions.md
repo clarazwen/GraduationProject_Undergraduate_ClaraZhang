@@ -121,7 +121,33 @@ package manager中有提供ARKit，ARFoundation等包。注意不同版本下有
 **问题描述**：.max文件只能用3dmax打开，而且我的MacBook pro不能安装3DMax  
 **解决办法**：已经让别人把我的小dell邮寄过来了...    
 
+### 【问题15】  
+**问题描述**：近期运行的工程文件太多，而免费的开发app ID只有十个，会报以下错。  
+**解决办法**：见参考[iOS真机调试-Your maximum App ID limit has been reached. You may create up to 10 App IDs every 7 days](https://www.jianshu.com/p/3e0669c23a89)。所以，开发之前确认好要设定的参数，每一次使用同样的开发者名称即可。出现了这个问题就是使用曾经用了的bundle ID即可。  
 
+### 【问题16】
+**问题描述**：考虑到unity中对ui的设计有限制，之前考虑的是iOS和unity进行交互使用，本周尝试了一下。iOS和Unity的切换的确有很多教程，但是步骤特别的多，很多设置和调整我都不知道原因....现在还没有完全实现二者的结合。    
+**解决办法**：向丑陋的界面屈服。为了不影响开发进度，还是先使用了Unity的一些ui。  
+接下来还是要继续尝试整合。  
+- [unity与原生iOS项目的整合（一）](https://blog.csdn.net/Elena_engineer/article/details/75969617)     
+- [Unity导出的iOS工程进行整合，解决CPU占用过大问题](https://www.jianshu.com/p/36f374f3e5e2)      
+
+### 【问题17】 
+**问题描述**：目前检测的平面都是水平的，没有垂直平面。也就是说，目前只能放置一些床，椅子，花盆等物体，对于门等垂直放置的家具不能放置。  
+**解决办法**：这个问题可能是一个需要长期解决的问题，现在就还是放水平面上的模型。毕竟水平面的模型的效果还是挺一般的....  
+
+### 【问题18】  
+**问题描述**：有一个问题是unity中的，就是不同模型现有的prefab不是非常的统一。其初始状态都是不一样的，可能床是正面对着你，椅子就是背面对着你。我在设置里调整了其rotation参数，但是没有修改。  
+造成结果：在屏幕上滑动手指进行更改位置的时候，由于模型的xyz方向不一样，向上/向下滑动的手势并不能造成统一的结果。也就是说，我向右滑动手指，由于其有旋转角度，模型不一样向右划。  
+同样的问题存在于其他的基本变换中，大部分情况没有问题，对于一些奇怪的prefab会有缩放效果不对等问题。  
+**解决办法**：这个问题的根本原因就是我不了解unity的一些基本使用....我准备问问其他同学。目前还没有去解决这个问题。  
+
+### 【问题19】  
+**问题描述**：在将摄像头对准墙壁或其他比较干净整洁（这也是我的错吗？）的平面时，往往无法识别到特征点，不能正常工作。  
+**解释**：
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/ProblemPictures/Problem19.png" width="50%" height="50%"/></div>   
+这个事情可能不是我能解决的，只能尽量避开这种情况。
+  
 
 
 ## 开发过程中可能会踩的坑  
@@ -134,5 +160,3 @@ package manager中有提供ARKit，ARFoundation等包。注意不同版本下有
 ARWorldTrackingSessionConfiguration->ARWorldTrackingConfiguration;  
 ARSessionConfiguration->ARConfiguration;  
 ~~~    
-
-
