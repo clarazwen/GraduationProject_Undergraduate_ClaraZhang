@@ -197,25 +197,25 @@ iPad端的截屏。
 ### week 12 0320  
 #### 增加功能：  
 - 完善了一些功能，*模型的拖动调整位置* ，对于已经放入场景中但觉得效果不好的模型-> *双击即可删除模型* ；  
-  - 选择是否开启平面检测，如果开启该功能并且检测到了平面即显示指示图标；
+- 选择是否开启平面检测，如果开启该功能并且检测到了平面即显示指示图标；
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo1.png"  width="70%" height="70%"/></div>     
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo2.png"  width="70%" height="70%"/></div>    
 
-  - 选择对应的toggle，放置对应的模型，并且可以任意对其进行变换（目前只用了toggle和button来实现，之后再进行美化...）；   
+- 选择对应的toggle，放置对应的模型，并且可以任意对其进行变换（目前只用了toggle和button来实现，之后再进行美化...）；   
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo3.png"  width="70%" height="70%"/></div>   
 
-  - 双击模型删除模型；  
+- 双击模型删除模型；  
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo4.png"  width="70%" height="70%"/></div>    
 
-  - 更改了对应的toggle之后，可以放置不同的模型（飞机），同样进行基本变换；
+- 更改了对应的toggle之后，可以放置不同的模型（飞机），同样进行基本变换；
   
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo5.png"  width="70%" height="70%"/></div>    
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo6.png"  width="70%" height="70%"/></div>   
 
-  - 放置不同风格的床，变换，删除；  
+- 放置不同风格的床，变换，删除；  
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo7.png"  width="70%" height="70%"/></div>   
 
@@ -231,7 +231,7 @@ iPad端的截屏。
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/ARMeasure/ARMeasure_01.gif"  width="70%" height="70%"/></div>     
 
-  - 再继续放置一个marker，即可测量三点间的面积。  
+- 再继续放置一个marker，即可测量三点间的面积。  
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/ARMeasure/ARMeasure_02.gif"  width="70%" height="70%"/></div>   
 
@@ -255,5 +255,3 @@ iPad端的截屏。
 - 一个问题：中期检查都要准备啥....（（（（（（
 
 暂时想到这里，待更新。
-
-
