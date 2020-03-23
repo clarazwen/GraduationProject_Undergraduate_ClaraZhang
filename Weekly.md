@@ -221,13 +221,13 @@ iPad端的截屏。
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo_1.gif"  width="50%" height="50%"/></div>   
 
-- 使用unity的ui完成了*模型选择*功能的完成。选中不同的模型即可在屏幕上放置不同的模型； 
+- 使用unity的ui完成了*模型选择*功能的完成。选中不同的模型即可在屏幕上放置不同的模型(这是gif图，但是它总不动...)； 
  
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/PlaceAndChangeDemo/PlaceAndChangeDemo_2.gif"  width="50%" height="50%"/></div>   
 
 - 尝试了AR Paint功能，本意是直接在空间中进行绘制示意图，起到标记等功能。搜集了一些现有的演示gif，感觉效果比较一般。要么能绘制但是识别效果很差很不稳定，要么只能在当前视窗绘制，没有位置记录的功能。这个功能待考虑和尝试。（图）    
 - 实现了AR Measure，用了ARKit本身插件中的unity AR generate Plane脚本生成平面。可以测量当前场景的两点间的距离或三点平面的面积。误差比较小，基本控制在1cm之内。可完善。   
-  - 首先调用插件中的AR generate plane生成可检测距离的平面，在测量点上点击「mark」放置标记。放置两个标记即可显示当前两点的「实际距离」，结果比较准，控制在1cm的误差之内；  
+  - 首先调用插件中的AR generate plane生成可检测距离的平面，在测量点上点击「mark」放置标记。放置两个标记即可显示当前两点的「实际距离」，结果比较准，控制在1cm的误差之内(这俩也是gif图，但是它有时候就不动...)；  
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/BasicFunction/ARMeasure/ARMeasure_01.gif"  width="50%" height="50%"/></div>     
 
