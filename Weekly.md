@@ -251,7 +251,29 @@ iPad端的截屏。
 
 - 对于更换模型，目前使用的只是文字的指示，准备加入模型缩略图展示再进行选中的功能，同时加入模型材质或颜色的更换。  
 - iOS的UI设计也要一直跟着。  
-
 - 一个问题：中期检查都要准备啥....（（（（（（
+
+### week 13 0327  
+
+这周好多时间放在整合，调整UI，写检查表做ppt上面了，周报记录的比较简单。  
+- 了解了一下prefab的存在子物体与父物体等....更改好了满足状态的prefab后再创建新的prefab。解决了模型初始设置角度不同，导致的更改prefab参数不起作用，旋转方向不一致的问题；  
+- 更换ARKit版本为1.5，补充了垂直平面检测的功能。在测量中进行测试，效果良好，误差仍然在1cm内。  
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/IntermediateInspection/Pictures/ARVertical.gif" width="50%" height="50%"/></div>     
+
+- AR测量加入了多边形面积的测量；  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/IntermediateInspection/Pictures/ARArea.gif" width="50%" height="50%"/></div>     
+- 加入了新的家具模型，设计了简单的UI，使用Toggle做了不同家具间的切换；
+   
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/IntermediateInspection/Pictures/model2.gif" width="50%" height="50%"/></div>     
+
+- 准备中期答辩，提交中期检查表，指导记录，准备了答辩ppt以及录制了简单的演示视频；  
+- 调整了应用名称，加载了应用的icon。  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/IntermediateInspection/Pictures/icon.png" width="50%" height="50%"/></div>     
+#### 下周计划:    
+- 既然已经完成了垂直平面的检测，尝试放置竖直方向的物体，比如装饰画等。   
+- 增加大量的家具模型，提高可供选择的模型数量；  
+- 开始尝试样板间的AR展示；  
+- 查缺补漏，将之前曾经规划过的功能整理一下，尽量实现出来。   
 
 暂时想到这里，待更新。
