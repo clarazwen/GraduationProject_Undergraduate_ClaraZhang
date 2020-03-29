@@ -148,6 +148,7 @@ package manager中有提供ARKit，ARFoundation等包。注意不同版本下有
 **问题描述**：在将摄像头对准墙壁或其他比较干净整洁（这也是我的错吗？）的平面时，往往无法识别到特征点，不能正常工作。  
 **解释**：
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/ProblemPictures/Problem19.png" width="50%" height="50%"/></div>   
+
 这个事情可能不是我能解决的，只能尽量避开这种情况。  
 
 ### 【问题20】  
