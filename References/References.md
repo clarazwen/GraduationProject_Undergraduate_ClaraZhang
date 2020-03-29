@@ -27,7 +27,7 @@
 【Maya下载与安装】  
 - [maya2019 for Mac V2019.2中文版](https://www.jianshu.com/p/7d2d2ee40b6f)    
 
-【模型部分】
+【模型与UI】
 - [Unity导出Package的场景模型](http://www.manew.com/thread-147408-1-1.html)  
 - 在arkit-by-example 的readme文档中一个参考链接  
 All Physically Based Rendering textures come from: [纹理获取](http://freepbr.com/ ) ，使用请注明原网址链接。  
@@ -38,7 +38,10 @@ All Physically Based Rendering textures come from: [纹理获取](http://freepbr
 - [unity中触摸改变物体的移动缩放](https://blog.csdn.net/xuxinqingjiao1/article/details/78925025)    
 - 关于XCode中， .scn/.obj/.dae文件的格式：  
   - [SceneKit | 加载 3D模型(obj/scn/dae)到你的AR项目中](https://www.jianshu.com/p/15101aa0eefe)   
-  - [三维文件格式知多少](http://www.bgteach.com/article/132)
+  - [三维文件格式知多少](http://www.bgteach.com/article/132)  
+
+- [下载icon的网站](https://www.easyicon.net/)   
+- [Lean touch](https://www.jianshu.com/p/6bd79aa29509)   
 
 
 
@@ -50,7 +53,8 @@ All Physically Based Rendering textures come from: [纹理获取](http://freepbr
 - [XCode界面设计](https://www.cnblogs.com/xw885/articles/3679855.html)
 - [iOS和Unity交互之界面跳转](https://blog.csdn.net/cherish_joy/article/details/72770624)
 - [Unity与原生iOS融合——实现简单界面跳转](https://blog.csdn.net/aiyan1111111/article/details/51774618)
-- [iOS APP UI设计之从效果图到UI切图](https://www.jianshu.com/p/3705ac39af18)  
+- [iOS APP UI设计之从效果图到UI切图](https://www.jianshu.com/p/3705ac39af18)   
+- [iOS开发技巧：设置App icon图标及修改应用程序名](https://blog.csdn.net/Hierarch_Lee/article/details/50790865)   
 【Swift语言】  
 - [apple/Swift](https://github.com/apple/swift)      
 - [The Swift Programming Language ](https://swift.org/)    
@@ -101,8 +105,12 @@ ARKit在unity中的应用：既要有模型的概念，又要有很多属性，�
 - [ARMeasure的GitHub](https://github.com/imai-yuki/ARMeasure)    
 - [与ARMeasure GitHub对应的作者个人主页](http://lovewcycle.com/2018/11/19/unityarkit3/)    
 - [Unity 移动端简单手势控制(移动，旋转，缩放)](https://blog.csdn.net/z502768095/article/details/78001839)  
-- [Unity 之 移动设备的触控操作](https://blog.csdn.net/AnYuanLzh/article/details/18367941)  
-
+- [Unity 之 移动设备的触控操作](https://blog.csdn.net/AnYuanLzh/article/details/18367941)   
+- [Unity如何在Instantiate的时候，不改变原prefab默认的方向](https://blog.csdn.net/alexhu2010q/article/details/100936567)      
+- [Unity的优化系列4 - 最好使用Canvas Overlay代替Screen Space Camera](https://blog.csdn.net/u010019717/article/details/51465530)      
+- [ToggleGroup的使用](https://blog.csdn.net/yy763496668/article/details/51577830)    
+- [unity NGUI 中ScrollView大量物体的优化方式：重用item](https://blog.csdn.net/zgjllf1011/article/details/79270911)  
+- [unity 360全景图](https://blog.csdn.net/XUXINQINGJIAO1/article/details/78647689)  
 
 【关于ARKit的介绍与教程】  
 - 介绍  
@@ -130,7 +138,17 @@ ARKit在unity中的应用：既要有模型的概念，又要有很多属性，�
     - [点击进入github地址](https://github.com/markdaws/arkit-by-example)  
   - [ARKit从入门到精通](https://www.jianshu.com/p/c97b230fa391)       
   - [精选的ARKit项目和资源的精选列表](https://www.jianshu.com/p/c59e45e1d98e)      
-  - [ARKit教程合集](https://github.com/olucurious/Awesome-ARKit#tutorials)  
+  - [ARKit教程合集](https://github.com/olucurious/Awesome-ARKit#tutorials)    
+- [为中期准备的ARKit基本知识](https://www.sohu.com/a/191024221_280780)   
+- [Unity发布2018.3版，新增对ARKit 2.0支持](https://baijiahao.baidu.com/s?id=1620059878500574245&wfr=spider&for=pc)   
+
+【Youtube教学系列视频】  
+ - [ARKit Unity tutorial : Scale and Rotate virtual models using touch gestures](https://www.youtube.com/watch?v=EUxiW_7W8rw)    
+- [ARKit 1.5 & Unity tutorial : ARKit Image Detection](https://www.youtube.com/watch?v=smlBwvHdNlo)  
+- [AR Portal Demo - Double A Labs](https://www.youtube.com/watch?v=8MprBjEjxOk)    
+- [Place IKEA furniture in your home with augmented reality](https://www.youtube.com/watch?v=n-qF2O6J1Oc)    
+- [ARKit Unity Tutorial - Build a Realistic Construction Site](https://www.youtube.com/watch?v=uBWThlohEn4)      
+- [Shop for furniture in augmented reality](https://www.youtube.com/watch?v=PB0F6pOuYoI)    
 
  ### 仅保存：
 - [Unity AR 传送门教程(1~4)](https://www.bilibili.com/video/av76556998/?spm_id_from=333.788.videocard.2)    
