@@ -37,12 +37,12 @@
   - [问题15](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9815):苹果免费的开发app ID一周只有10个，超过10个使用之前用过的id即可。   
   - [问题19](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9819):这个我不打算解决并且我也解决不了...在将摄像头对准墙壁或其他比较干净整洁的平面时，往往无法识别到特征点.
   - [问题17](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9817)已解决，可以检测垂直平面    
+- [问题18](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9818)由于模型的预设不一致，方向角度不一样，导致相同的触屏手势会造成不同的位移。  
   - [问题21](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9821):iOS开发问题「apple mach -o linker(id) error」
 
 
 - 未解决  
   - [问题16](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9816):iOS与unity代码间的交互   
-  - [问题18](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9818)由于模型的预设不一致，方向角度不一样，导致相同的触屏手势会造成不同的位移。  
   - [问题20](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9820):放进来的模型位置不稳定  
   - [问题22](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9822):macOS系统升级的问题。  
 
