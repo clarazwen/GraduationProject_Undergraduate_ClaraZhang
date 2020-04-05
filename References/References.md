@@ -147,8 +147,8 @@ ARKit在unity中的应用：既要有模型的概念，又要有很多属性，�
 - [Unity发布2018.3版，新增对ARKit 2.0支持](https://baijiahao.baidu.com/s?id=1620059878500574245&wfr=spider&for=pc)   
 
 
-- 中期记录  
-准备资料：  
+【中期记录】  
+- 准备资料  
 [视觉惯性里程计（VIO)](https://blog.csdn.net/hbar1973/article/details/82464431)  
 [使用Unity ARKit插件进行ARKit 1.5开发](https://connect.unity.com/p/shi-yong-unity-arkitcha-jian-jin-xing-arkit-1-5kai-fa)   
 [ARFoundation之路－平面管理](https://blog.csdn.net/yolon3000/article/details/95073398)   
