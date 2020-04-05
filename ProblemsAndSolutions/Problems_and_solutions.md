@@ -159,6 +159,10 @@ package manager中有提供ARKit，ARFoundation等包。注意不同版本下有
 **问题描述**：工程文件A的签名为A，工程文件B的签名为B。在将B导出的package放到A工程中合并的时候，会出现错误「apple mach -o linker(id) error」。  
 **解决办法**：这个故事告诉我们，没事不要手欠随便改开发者名字。全程尽量使用一个名字，就算想改的规范一点，也要注意再合并之前将两个开发者签名改成一样的。导出包的时候如果多个过程的签名不一样的会出让人窒息的问题。  
 
+### 【问题22】  
+**问题描述**：新的AR Foundation出了一些考虑使用的功能，但是版本是4.0。只适合于XCode11+，但是XCode11+又只适合mac10.15+。官方文档所介绍的功能又确实值得尝试一下，所以准备多尝试一下。     
+**解决办法**：不知道在座的各位有没有升级过mac系统，有什么建议或者操作。    
+
 ## 开发过程中可能会踩的坑  
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/NameChanged.png" width="40%" height="40%"/></div>     
