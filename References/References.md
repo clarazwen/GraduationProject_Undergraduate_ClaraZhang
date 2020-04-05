@@ -70,7 +70,11 @@ All Physically Based Rendering textures come from: [纹理获取](http://freepbr
 - [unity打包iOS并向iOS传递消息](https://www.jianshu.com/p/e8e70d287a4e)   
 - [ARKit 与Unity桥接](https://www.jianshu.com/p/aae0dc754aa3)  
 
-
+【AR Foundation】  
+- [AR Foundation support for ARKit 3](https://blogs.unity3d.com/es/2019/06/06/ar-foundation-support-for-arkit-3/)   
+- [github:arfoundation-samples](https://github.com/Unity-Technologies/arfoundation-samples)   
+- [build-failure-for-ios-on-unity-xcode](https://stackoverflow.com/questions/56749223/build-failure-for-ios-on-unity-xcode) 
+- [ARFoundation之路－环境配置(iOS)之一](https://blog.csdn.net/yolon3000/article/details/93405795)
 
 【Unity与ARKit的使用】  
 ARKit在unity中的应用：既要有模型的概念，又要有很多属性，比如物理特性、纹理、材质、光照反射等；还要有场景的概念，场景内的模型可以互相影响，并且会根据写好的逻辑作出反应；还要拥有视角的概念，可以控制玩家如何在游戏中“看”这个环境。 
@@ -141,6 +145,19 @@ ARKit在unity中的应用：既要有模型的概念，又要有很多属性，�
   - [ARKit教程合集](https://github.com/olucurious/Awesome-ARKit#tutorials)    
 - [为中期准备的ARKit基本知识](https://www.sohu.com/a/191024221_280780)   
 - [Unity发布2018.3版，新增对ARKit 2.0支持](https://baijiahao.baidu.com/s?id=1620059878500574245&wfr=spider&for=pc)   
+
+
+- 中期记录  
+准备资料：  
+[视觉惯性里程计（VIO)](https://blog.csdn.net/hbar1973/article/details/82464431)  
+[使用Unity ARKit插件进行ARKit 1.5开发](https://connect.unity.com/p/shi-yong-unity-arkitcha-jian-jin-xing-arkit-1-5kai-fa)   
+[ARFoundation之路－平面管理](https://blog.csdn.net/yolon3000/article/details/95073398)   
+[ARFoundation之路－Raycasting](https://blog.csdn.net/yolon3000/article/details/94458183)   
+[AR Foundation之路-架构及术语](https://www.ppkanshu.com/index.php/post/2221.html)   
+[U3D官网：About AR Foundation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@1.0/manual/index.html)    
+[ARCore 概览](https://developers.google.cn/ar/discover/)    
+[Unityで面積を求めたい3Dの場合](http://lovewcycle.com/2018/12/08/unity/)   
+ 
 
 【Youtube教学系列视频】  
  - [ARKit Unity tutorial : Scale and Rotate virtual models using touch gestures](https://www.youtube.com/watch?v=EUxiW_7W8rw)    
