@@ -291,6 +291,7 @@ iPad端的截屏。
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/%E6%A8%A1%E5%9D%97%E4%BB%8B%E7%BB%8D.png" width="70%" height="70%"/></div>       
 
 - 根据预期的模块内容，进行新功能的开发尝试。  
+- 有很多小细节的修改，改一发而动全身，正在调整。  
 - 阅读了几篇毕业论文，拟定论文大纲。  
 - 为了开发新的功能，在网上查找了相关资料，有一些参考demo需要XCode11。还有一些需要解决的问题，还没有成功构建 [问题22](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9822)   
 
