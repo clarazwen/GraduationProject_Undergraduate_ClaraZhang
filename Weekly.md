@@ -262,8 +262,9 @@ iPad端的截屏。
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/IntermediateInspection/Pictures/ARVertical.gif" width="50%" height="50%"/></div>     
 
 - AR测量加入了多边形面积的测量；  
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/IntermediateInspection/Pictures/ARArea.gif" width="50%" height="50%"/></div>     
-- 加入了新的家具模型，设计了简单的UI，使用Toggle做了不同家具间的切换；
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/IntermediateInspection/Pictures/ARArea.gif" width="50%" height="50%"/></div>      
+
+- 加入了新的家具模型，设计了简单的UI，使用Toggle做了不同家具间的切换；  
    
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/IntermediateInspection/Pictures/model2.gif" width="50%" height="50%"/></div>     
 
@@ -295,5 +296,24 @@ iPad端的截屏。
 - 阅读了几篇毕业论文，拟定论文大纲。  
 - 为了开发新的功能，在网上查找了相关资料，有一些参考demo需要XCode11。还有一些需要解决的问题，还没有成功构建 [问题22](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9822)   
 
+### week15 0411  
+完成任务  
+- 感谢教授，电脑系统和XCode都更新成功了，没有问题。   
+- 运行了新的samples，效果正常，可以显示主要轮廓。接下来马不停蹄进行新的开发和整合。  
+![IMG_6097.png](https://upload-images.jianshu.io/upload_images/21890237-70e04866a93c69cd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+- 关于iOS和Unity跳转交互的整合。    
+> Unity改变了生成的iOS Xcode和Android Gradle项目的架构。    
+  - unity更新了版本之后（2019.3.4），生成的Xcode文件结构简洁了许多，和之前相比有变化。   
+  - 已经实现了官方demo的跳转，参考[Unity 2019.3为原生游戏应用简化插入AR功能过程](https://yivian.com/news/62508.html) ，看起来为AR的开发提供了许多方便。   
+- 根据中期意见，需要补充光照估计数值的参考。然而获得数值需要支持TruthDepth相机的设备，我的暂时不支持。将文件打包给了其他同学，成功测试了光照估计的效果，可以显示参数。见[问题23] ()     
+- 毕业论文    
+参考了往年的论文，初步拟定了论文内容，调整了一下格式。对于不确定需要指导的意见已经高亮显示了，准备发送给指导教师。
+
+工作安排    
+- 马不停蹄抓紧完成应用开发。
+- 将光照检测等新尝试好的功能，补充进原有的应用中。拍摄新的测试图片。  
+- 已经初步实现iOS与unity的交互，尽快尝试将自己的功能按照这种结构进行操作，然后快些尝试新的功能（AR Foundation3.0与ARKit3.0）  
+- 根据指导意见，以及自己难以捉摸的想法，有逻辑地更改论文大纲。  
+- 完成已确定部分的毕业论文。
 
 暂时想到这里，待更新。
