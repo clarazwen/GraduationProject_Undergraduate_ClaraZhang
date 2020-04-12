@@ -163,6 +163,10 @@ package manager中有提供ARKit，ARFoundation等包。注意不同版本下有
 **问题描述**：新的AR Foundation出了一些考虑使用的功能，但是版本是4.0。只适合于XCode11+，但是XCode11+又只适合mac10.15+。官方文档所介绍的功能又确实值得尝试一下，所以准备多尝试一下。     
 **解决办法**：不知道在座的各位有没有升级过mac系统，有什么建议或者操作。    
 
+### 【问题23】    
+**问题描述**：光照检测通过接口获得检测数值，需要支持TruthDepth相机的设备，iPad pro一代不支持。  
+**解决办法**：这一部分其实也不是开发重点，只是作为一个验证的功能。所以暂时就这样了，测试一下看一下结果就好，不作为主要功能部分。将工程文件发给了其他同学，测试了光照估计的效果。效果正常，可以显示出来测试的参数。      
+
 ## 开发过程中可能会踩的坑  
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/NameChanged.png" width="40%" height="40%"/></div>     
