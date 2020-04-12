@@ -300,7 +300,9 @@ iPad端的截屏。
 完成任务  
 - 感谢教授，电脑系统和XCode都更新成功了，没有问题。   
 - 运行了新的samples，效果正常，可以显示主要轮廓。接下来马不停蹄进行新的开发和整合。  
-![IMG_6097.png](https://upload-images.jianshu.io/upload_images/21890237-70e04866a93c69cd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/XCodeUpgrate.png" width="50%" height="50%"/></div>    
+
 - 关于iOS和Unity跳转交互的整合。    
 > Unity改变了生成的iOS Xcode和Android Gradle项目的架构。    
   - unity更新了版本之后（2019.3.4），生成的Xcode文件结构简洁了许多，和之前相比有变化。   
