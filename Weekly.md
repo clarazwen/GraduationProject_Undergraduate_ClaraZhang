@@ -307,7 +307,7 @@ iPad端的截屏。
 > Unity改变了生成的iOS Xcode和Android Gradle项目的架构。    
   - unity更新了版本之后（2019.3.4），生成的Xcode文件结构简洁了许多，和之前相比有变化。   
   - 已经实现了官方demo的跳转，参考[Unity 2019.3为原生游戏应用简化插入AR功能过程](https://yivian.com/news/62508.html) ，看起来为AR的开发提供了许多方便。   
-- 根据中期意见，需要补充光照估计数值的参考。然而获得数值需要支持TruthDepth相机的设备，我的暂时不支持。将文件打包给了其他同学，成功测试了光照估计的效果，可以显示参数。见[问题23] ()     
+- 根据中期意见，需要补充光照估计数值的参考。然而获得数值需要支持TruthDepth相机的设备，我的暂时不支持。将文件打包给了其他同学，成功测试了光照估计的效果，可以显示参数。见[问题23](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9823)    
 - 毕业论文    
 参考了往年的论文，初步拟定了论文内容，调整了一下格式。对于不确定需要指导的意见已经高亮显示了，准备发送给指导教师。
 
