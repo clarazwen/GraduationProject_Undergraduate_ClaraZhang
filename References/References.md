@@ -19,10 +19,11 @@
 - [mac修改host](https://www.jianshu.com/p/fa41e05fe2d3)  
 `192.30.253.112 github.com `  
 - [git lfs安装、大文件版本管理](https://www.jianshu.com/p/0d1a54295208) 
-- [使用git clone命令出现error: RPC failed; curl 18 transfer closed with outstanding read data remaining问题](https://blog.csdn.net/u013983033/article/details/89487308). 
-
+- [使用git clone命令出现error: RPC failed; curl 18 transfer closed with outstanding read data remaining问题](https://blog.csdn.net/u013983033/article/details/89487308)   
+- [MAC下访问github速度慢的解决办法](https://www.jianshu.com/p/bb3bb7e57216)     
+- [遇到GitHub上图片无法加载或者加载速度较慢的解决办法](https://www.jianshu.com/p/3eacebfc55ab)    
 【可以上传本地文件转换成纯净图片链接的小网站】  
-- [图片链接生成](https://sm.ms/)  
+- [图片链接生成](https://sm.ms/)    
 
 【Maya下载与安装】  
 - [maya2019 for Mac V2019.2中文版](https://www.jianshu.com/p/7d2d2ee40b6f)    
@@ -55,6 +56,10 @@ All Physically Based Rendering textures come from: [纹理获取](http://freepbr
 - [Unity与原生iOS融合——实现简单界面跳转](https://blog.csdn.net/aiyan1111111/article/details/51774618)
 - [iOS APP UI设计之从效果图到UI切图](https://www.jianshu.com/p/3705ac39af18)   
 - [iOS开发技巧：设置App icon图标及修改应用程序名](https://blog.csdn.net/Hierarch_Lee/article/details/50790865)   
+【macOS及Xcode更新】  
+- [xcode下载地址](https://developer.apple.com/download/more/?=xcode)   
+- [苹果电脑(MacBook)系统(macOS)如何更新](https://www.zhihu.com/question/65579584/answer/815997394)    
+- [mac os x 10.13.6如何升级到10.14.6](https://www.zhihu.com/question/358443756)    
 【Swift语言】  
 - [apple/Swift](https://github.com/apple/swift)      
 - [The Swift Programming Language ](https://swift.org/)    
@@ -75,6 +80,13 @@ All Physically Based Rendering textures come from: [纹理获取](http://freepbr
 - [github:arfoundation-samples](https://github.com/Unity-Technologies/arfoundation-samples)   
 - [build-failure-for-ios-on-unity-xcode](https://stackoverflow.com/questions/56749223/build-failure-for-ios-on-unity-xcode) 
 - [ARFoundation之路－环境配置(iOS)之一](https://blog.csdn.net/yolon3000/article/details/93405795)
+
+【unity2019.3（更新版本后的）与Xcode的整合资料】
+- [Unity 2019.3为原生游戏应用简化插入AR功能过程](https://yivian.com/news/62508.html)     
+- [Unity论坛：Using Unity as a library in native iOS/Android apps](https://forum.unity.com/threads/using-unity-as-a-library-in-native-ios-android-apps.685195/)       
+- [unity论坛：integration-unity-as-a-library-in-native-ios-app.685219/](https://forum.unity.com/threads/integration-unity-as-a-library-in-native-ios-app.685219/)    
+- [unity technology官方提出的unity与iOS整合方式：ios.md](https://github.com/Unity-Technologies/uaal-example/blob/master/docs/ios.md)   
+
 
 【Unity与ARKit的使用】  
 ARKit在unity中的应用：既要有模型的概念，又要有很多属性，比如物理特性、纹理、材质、光照反射等；还要有场景的概念，场景内的模型可以互相影响，并且会根据写好的逻辑作出反应；还要拥有视角的概念，可以控制玩家如何在游戏中“看”这个环境。 
