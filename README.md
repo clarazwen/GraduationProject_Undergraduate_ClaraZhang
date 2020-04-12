@@ -2,10 +2,50 @@
 本仓库为clarazhang的毕业设计记录。  
 - **周报内容**  请查看详细周报记录：[进度汇报](https://github.com/clarazwen/ProgressReport/blob/master/Weekly.md)  
 - **参考资料**  请查看整个毕设的完成过程所用到的全部参考资料：[参考资料](https://github.com/clarazwen/ProgressReport/blob/master/References/References.md)  
-- **问题与解决** 请查看遇到的问题与解决方式的详细记录：[问题与解决](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md)
+- **问题与解决** 请查看遇到的问题与解决方式的详细记录：[问题与解决](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md)    
 ### 毕业设计题目
 《Implementation of personalized home decoration platform based on augmented reality》  
-基于增强现实的个性化家装平台  
+基于增强现实的个性化家装平台    
+
+#### 对于访问GitHub速度过慢/图片加载过慢的解决办法：
+为了提高速度，可以使用HOSTS加速对Github网站加载的资源网站域名解析。   
+~~~  
+需添加代码
+# GitHub   
+192.30.253.112 github.com 
+192.30.253.119 gist.github.com 
+151.101.100.133 assets-cdn.github.com 
+151.101.100.133 raw.githubusercontent.com 
+151.101.100.133 gist.githubusercontent.com 
+151.101.100.133 cloud.githubusercontent.com 
+151.101.100.133 camo.githubusercontent.com 
+151.101.100.133 avatars0.githubusercontent.com 
+151.101.100.133 avatars1.githubusercontent.com 
+151.101.100.133 avatars2.githubusercontent.com 
+151.101.100.133 avatars3.githubusercontent.com 
+151.101.100.133 avatars4.githubusercontent.com 
+151.101.100.133 avatars5.githubusercontent.com 
+151.101.100.133 avatars6.githubusercontent.com 
+151.101.100.133 avatars7.githubusercontent.com 
+151.101.100.133 avatars8.githubusercontent.com 
+~~~
+- Windows系统下：  
+1. 修改 C:\Windows\System32\drivers\etc 中的hosts文件（PS：若没有修改权限，可以鼠标右键，属性，安全，修改权限。或者将hosts文件复制s到桌面，修改之后，复制到原文件夹）  
+2. 将上述【需添加代码】复制到hosts文件中，保存文件，刷新GitHub  
+
+- Mac系统下：  
+
+1. 打开终端，编辑hosts文件  
+~~~
+sudo vim /etc/hosts
+~~~     
+2. 根据提示进行编辑，点击`i`进行Insert或者点击`E`进行Edit   
+3. 添加上述【需添加代码】
+4. 输入`:wq`退出界面
+5. 刷新DNS
+~~~
+dscacheutil -flushcache
+~~~     
 ### 文献翻译  
 考虑到本毕业设计的开发内容与研究方向，选取了两篇论文进行研读与翻译。  
 - [AR interior designer- Automatic furniture arrangement using spatial and functional relationships](https://ieeexplore.ieee.org/abstract/document/7136652/)  
@@ -35,16 +75,15 @@
   - [问题13](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9813):ARSession中arsession.Raycast()函数丢失   
   - [问题14](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9814):.max文件只能用3dmax打开，而macOS无法下载3Dmax   
   - [问题15](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9815):苹果免费的开发app ID一周只有10个，超过10个使用之前用过的id即可。   
-  - [问题19](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9819):这个我不打算解决并且我也解决不了...在将摄像头对准墙壁或其他比较干净整洁的平面时，往往无法识别到特征点.
+  - [问题16](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9816):iOS与unity代码间的交互   
   - [问题17](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9817)已解决，可以检测垂直平面    
   - [问题18](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9818)由于模型的预设不一致，方向角度不一样，导致相同的触屏手势会造成不同的位移。  
+  - [问题19](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9819):这个我不打算解决并且我也解决不了...在将摄像头对准墙壁或其他比较干净整洁的平面时，往往无法识别到特征点.     
   - [问题21](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9821):iOS开发问题「apple mach -o linker(id) error」
-
-
+  - [问题22](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9822):macOS系统升级的问题。   
+  - [问题23](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9823)：光照估计获取数值的部分需要设备支持TrueDepth。   
 - 未解决  
-  - [问题16](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9816):iOS与unity代码间的交互   
   - [问题20](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9820):放进来的模型位置不稳定  
-  - [问题22](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9822):macOS系统升级的问题。  
 
 
 
