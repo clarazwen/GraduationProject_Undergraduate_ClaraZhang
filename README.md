@@ -1,5 +1,5 @@
 ## 毕业设计相关记录
-本仓库为clarazhang的毕业设计记录。  
+本仓库为Luwen Zhang的毕业设计记录。  
 - **周报内容**  请查看详细周报记录：[进度汇报](https://github.com/clarazwen/ProgressReport/blob/master/Weekly.md)  
 - **参考资料**  请查看整个毕设的完成过程所用到的全部参考资料：[参考资料](https://github.com/clarazwen/ProgressReport/blob/master/References/References.md)  
 - **问题与解决** 请查看遇到的问题与解决方式的详细记录：[问题与解决](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md)    
