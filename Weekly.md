@@ -1,5 +1,5 @@
-# 毕业设计完成记录   
-本文档为Luwen Zhang的毕业设计完成记录    
+# 毕业设计完成记录  
+本文档为Luwen Zhang的毕业设计完成记录  
 > ### 任务书设定的预期进度安排  
 > 1. 前期:  
 >- 2020年1月初：确认毕业设计需完成的基本内容，查找相关文献与材料，完成开题工作；  
@@ -260,4 +260,63 @@ iPad端的截屏。
 - 了解了一下prefab的存在子物体与父物体等....更改好了满足状态的prefab后再创建新的prefab。解决了模型初始设置角度不同，导致的更改prefab参数不起作用，旋转方向不一致的问题；  
 - 更换ARKit版本为1.5，补充了垂直平面检测的功能。在测量中进行测试，效果良好，误差仍然在1cm内。  
 
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/IntermediateInspection/Pictures/
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/IntermediateInspection/Pictures/ARVertical.gif" width="50%" height="50%"/></div>     
+
+- AR测量加入了多边形面积的测量；  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/IntermediateInspection/Pictures/ARArea.gif" width="50%" height="50%"/></div>      
+
+- 加入了新的家具模型，设计了简单的UI，使用Toggle做了不同家具间的切换；  
+   
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/IntermediateInspection/Pictures/model2.gif" width="50%" height="50%"/></div>     
+
+- 准备中期答辩，提交中期检查表，指导记录，准备了答辩ppt以及录制了简单的演示视频；  
+- 调整了应用名称，加载了应用的icon。  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/IntermediateInspection/Pictures/icon.png" width="50%" height="50%"/></div>     
+
+#### 下周计划：
+- 既然已经完成了垂直平面的检测，尝试放置竖直方向的物体，比如装饰画等。  
+- 增加大量的家具模型，提高可供选择的模型数量；   
+- 开始尝试样板间的AR展示；   
+- 查缺补漏，将之前曾经规划过的功能整理一下，尽量实现出来。   
+
+### week14 0403   
+> 1．多点连续测量：目前的距离测量只有单次两点间的距离，不能记录上一次的测量结果。接下来进行多个标记间的连续两点距离的测量与保存。完成闭环式的轮廓，以形成家居设计图中的户型尺寸草图。   
+> 2．已放置在场景中的模型，其尺寸没有和真实世界的家具尺寸形成参照。形成一套虚拟模型与真实家具的度量体系，为操作者提供真实数据的参考。   
+> 3．补充家具模型。使用同种风格的家具，完成一套或多套家居设计样板间的AR展示。提供关键词内家具推荐，完成预期的“猜你喜欢”功能。   
+> 4．完成保存已设计场景的功能，放置在场景中的模型是位置固定的，移动摄像头观察其整体摆放效果。   
+> 5．改善用户界面，便于初试者上手，提高其美观度以及交互性。   
+> 6．调研及开发过程使用的参考资料，遇到的问题及解决办法都有记录。根据以上记录，结合软件效果，研究基本原理，完成毕业设计论文.完成全部的功能开发与效果完善后，录制毕设的演示视频，设计个人展板。    
+
+- 完成中期答辩，根据答辩老师意见调整了中期检查表。  
+- 对接下来需要完成的任务做了简单调整，暂定了功能模块；
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/%E6%A8%A1%E5%9D%97%E4%BB%8B%E7%BB%8D.png" width="70%" height="70%"/></div>       
+
+- 根据预期的模块内容，进行新功能的开发尝试。  
+- 有很多小细节的修改，改一发而动全身，正在调整。  
+- 阅读了几篇毕业论文，拟定论文大纲。  
+- 为了开发新的功能，在网上查找了相关资料，有一些参考demo需要XCode11。还有一些需要解决的问题，还没有成功构建 [问题22](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9822)   
+
+### week15 0411  
+完成任务  
+- 感谢教授，电脑系统和XCode都更新成功了，没有问题。   
+- 运行了新的samples，效果正常，可以显示主要轮廓。接下来马不停蹄进行新的开发和整合。  
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/XCodeUpgrate.png" width="50%" height="50%"/></div>    
+
+- 关于iOS和Unity跳转交互的整合。    
+> Unity改变了生成的iOS Xcode和Android Gradle项目的架构。    
+  - unity更新了版本之后（2019.3.4），生成的Xcode文件结构简洁了许多，和之前相比有变化。   
+  - 已经实现了官方demo的跳转，参考[Unity 2019.3为原生游戏应用简化插入AR功能过程](https://yivian.com/news/62508.html) ，看起来为AR的开发提供了许多方便。   
+- 根据中期意见，需要补充光照估计数值的参考。然而获得数值需要支持TruthDepth相机的设备，我的暂时不支持。将文件打包给了其他同学，成功测试了光照估计的效果，可以显示参数。见[问题23](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9823)    
+- 毕业论文    
+参考了往年的论文，初步拟定了论文内容，调整了一下格式。对于不确定需要指导的意见已经高亮显示了，准备发送给指导教师。
+
+工作安排    
+- 马不停蹄抓紧完成应用开发。
+- 将光照检测等新尝试好的功能，补充进原有的应用中。拍摄新的测试图片。  
+- 已经初步实现iOS与unity的交互，尽快尝试将自己的功能按照这种结构进行操作，然后快些尝试新的功能（AR Foundation3.0与ARKit3.0）  
+- 根据指导意见，以及自己难以捉摸的想法，有逻辑地更改论文大纲。  
+- 完成已确定部分的毕业论文。
+
+暂时想到这里，待更新。
