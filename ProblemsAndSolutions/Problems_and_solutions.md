@@ -167,6 +167,17 @@ package manager中有提供ARKit，ARFoundation等包。注意不同版本下有
 **问题描述**：光照检测通过接口获得检测数值，需要支持TruthDepth相机的设备，iPad pro一代不支持。  
 **解决办法**：这一部分其实也不是开发重点，只是作为一个验证的功能。所以暂时就这样了，测试一下看一下结果就好，不作为主要功能部分。将工程文件发给了其他同学，测试了光照估计的效果。效果正常，可以显示出来测试的参数。      
 
+### 【问题24】   
+**问题描述**：多个工程文件合并时，由于某个工程文件用了旧版的sdk，在Unity更新了版本之后，旧版sdk与unity新版导出iOS格式文件有所不同。  
+错误显示为:Exception: Calling TargetGuidByName with name='Unity-iPhone' is deprecated.There are two targets now, call GetUnityMainTargetGuid() - for app or GetUnityFrameworkTargetGuid() - for source/plugins to get Guid instead of calling to TargetGuidByName(GetUnityTargetName()).    
+**解决办法**：
+[参考链接](https://stackoverflow.com/questions/60459020/how-to-fix-bug-in-ironsource-unity-sdk-on-ios)，对于本unityarkitplugin,将对应文件的第170与171行替换为
+~~~
+proj.AddFrameworkToProject(proj.GetUnityFrameworkTargetGuid(), "ARKit.framework", false);
+string target = proj.GetUnityFrameworkTargetGuid();
+~~~  
+
+
 ## 开发过程中可能会踩的坑  
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/NameChanged.png" width="40%" height="40%"/></div>     
