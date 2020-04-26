@@ -340,18 +340,24 @@ iPad端的截屏。
 - 清醒一点，加速完成还没写完的代码开发，调整一下iOS的界面美观。    
 ### week17 0425  
 完成工作：   
-- 测量功能的后续完善：实现了连续的多点的测量，引入了新的条件控制之后还没有调整界面交互。接下来准备加入测量过程中的UX引导，比如可视化连接线等。  
-- 使用AR Portal的方式进行了样板间的展示，目前这个还比较简陋，只有墙体，地板，门，壁画和电视等。不过都有贴图和材质，所以看起来效果还可以。（拍GIF补图）   
+- 尝试在界面中加入了一些UX内容，可以对使用者进行一定的引导。  
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UX%26UI/UX2.jpg" width="50%" height="50%"/></div>  
+- 测量功能的后续完善：实现了连续的多点的测量，引入了新的条件控制之后还没有调整界面交互。   
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/Measure/RepeatedlyMeasure1.gif" width="50%" height="50%"/></div>  
+接下来准备加入测量过程中的UX引导，比如可视化连接线等。    
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/Measure/RepeatedlyMeasure1.png" width="50%" height="50%"/></div>  
+- 使用AR Portal的方式进行了样板间的展示，目前这个还比较简陋，只有墙体，地板，门，壁画和电视等。不过都有贴图和材质，所以看起来效果还可以。   
+ <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/Portal/ARPortal1.gif" width="50%" height="50%"/></div>  
 - 根据测试设备统一了工程文件中的屏幕尺寸，效果稍微好了点儿。   
 - 统一了不同功能工程文件中的不同开发方式。  
 
 毕业论文（35%）：   
-- 完成了论文前两章的内容和第三章的引言，对标注出来的网上的资料重新进行内容理解与修改。    
+- 完成了论文前两章全部和第三章大部分内容，对标注出来的网上的资料重新进行内容理解与修改。    
+- 其余内容，如测试和未来展望等内容要等代码这边全都完成再写。   
 
 工作安排：  
 - 继续写论文，完成第三章和第四章中可以完成的内容。  
 - 多点测量目前还必须在检测到的平面上进行，调整为「不需检测平面  即可进行测量」。   
 - 补充样板间的更多模型，以及多种风格的样板间。    
--  iOS的界面还没做UI....
-
+-  iOS的界面还没做UI....（崩溃
 暂时想到这里，待更新。
