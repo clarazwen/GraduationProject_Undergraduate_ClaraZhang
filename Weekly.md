@@ -341,13 +341,21 @@ iPad端的截屏。
 ### week17 0425  
 完成工作：   
 - 尝试在界面中加入了一些UX内容，可以对使用者进行一定的引导。  
+
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/UX%26UI/UX2.jpg" width="50%" height="50%"/></div>  
+
 - 测量功能的后续完善：实现了连续的多点的测量，引入了新的条件控制之后还没有调整界面交互。   
+
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/Measure/RepeatedlyMeasure1.gif" width="50%" height="50%"/></div>  
+
 接下来准备加入测量过程中的UX引导，比如可视化连接线等。    
+
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/Measure/RepeatedlyMeasure1.png" width="50%" height="50%"/></div>  
-- 使用AR Portal的方式进行了样板间的展示，目前这个还比较简陋，只有墙体，地板，门，壁画和电视等。不过都有贴图和材质，所以看起来效果还可以。   
+
+- 使用AR Portal的方式进行了样板间的展示，目前这个还比较简陋，只有墙体，地板，门，壁画和电视等。不过都有贴图和材质，所以看起来效果还可以。  
+
  <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/Portal/ARPortal1.gif" width="50%" height="50%"/></div>  
+ 
 - 根据测试设备统一了工程文件中的屏幕尺寸，效果稍微好了点儿。   
 - 统一了不同功能工程文件中的不同开发方式。  
 
