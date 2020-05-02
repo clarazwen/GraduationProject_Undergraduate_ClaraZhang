@@ -50,7 +50,7 @@
 - 多点测量目前还必须在检测到的平面上进行，调整为「不需检测平面即可进行测量」，再补充一点动态效果进去。   
 - portal的部分要补充样板间的更多模型，或者再找找有没有成型较为完整的房屋场景，添加多种风格的样板间。    
 - iOS正在学习界面UI怎么做，还没完成....（崩溃    
-### week18 0503
+### week18 0503    
 完成工作：  
 - iOS首页的设计基本完成了，剩里面具体的功能准备用产品原型软件（墨刀之类的）直接做出来，不实现功能。大概内容如下：       
 
@@ -66,9 +66,11 @@
 
 <div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/ARHouseModel1.jpg" width="50%" height="50%"/></div>     
 
-- 下载的模型除了asset store，其他的全是.max格式的。解决了3dmax使用Vray建模之后，Unity不识别材质的问题。[3dmax+VRay导入到unity中如何保持效果正常](https://blog.csdn.net/linyisonger/article/details/82795684) （这个如果找同学帮忙的话可能会麻烦死...       
+- 下载的模型除了asset store，其他的全是.max格式的。解决了3dmax使用Vray建模之后，Unity不识别材质的问题。[3dmax+VRay导入到unity中如何保持效果正常](https://blog.csdn.net/linyisonger/article/details/82795684) （这个如果找同学帮忙的话可能会麻烦死...    
+
 毕业论文：   
-- 论文在写主要的第四章了，等基本完成之后再写测试过程，未来和展望完成了主要的点。        
+- 论文在写主要的第四章了，等基本完成之后再写测试过程，未来和展望完成了主要的点。    
+
 工作安排：   
 - 对着任务书，中期检查表等整理了一下要完成的内容。   
 
