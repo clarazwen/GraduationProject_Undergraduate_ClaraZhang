@@ -74,7 +74,7 @@
 工作安排：   
 - 对着任务书，中期检查表等整理了一下要完成的内容。   
 
-<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/0503ToDO.png" width="50%" height="50%"/></div>     
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/0503ToDO.png" width="90%" height="90%"/></div>     
 
 - 把后续工作基本完善，做一下iOS还没完成的内容界面。   
 - 完成毕业论文全部内容，自我查重。  
