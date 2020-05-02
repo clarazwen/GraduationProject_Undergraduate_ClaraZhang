@@ -50,5 +50,31 @@
 - 多点测量目前还必须在检测到的平面上进行，调整为「不需检测平面即可进行测量」，再补充一点动态效果进去。   
 - portal的部分要补充样板间的更多模型，或者再找找有没有成型较为完整的房屋场景，添加多种风格的样板间。    
 - iOS正在学习界面UI怎么做，还没完成....（崩溃    
+### week18 0503
+完成工作：  
+- iOS首页的设计基本完成了，剩里面具体的功能准备用产品原型软件（墨刀之类的）直接做出来，不实现功能。大概内容如下：       
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/iOSUI1.0.jpg" width="50%" height="50%"/></div>     
+
+等所有unity方面的工作完成之后，两个工程整合起来就ok了，这个已经比较熟练了。      
+- 完成了测量可视化，以及闭环绘制曲线。使用了LineRenderer绘制线段或自定义曲线，研究怎么把组件结合到AR上研究了很久。使用LineRenderer可以调整线条的各种参数，粗细颜色等，目前在调整细节。     
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/LineRenderRefer.jpg" width="50%" height="50%"/></div>     
+
+这个图是完成过程中参考资料的图。完成周报时间有限，目前自己没录制GIF图。效果还行。      
+-  实现了样板间的展示，各种建模网站淘宝asset store买了不少....因为全虚拟模型不能接受真实世界光照的作用，需要自己建立光源。正在挑选和调整初始位置，灯光参数啥的。已经测试过了个别模型，可以在AR场景中使用，效果良好。         
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/ARHouseModel1.jpg" width="50%" height="50%"/></div>     
+
+- 下载的模型除了asset store，其他的全是.max格式的。解决了3dmax使用Vray建模之后，Unity不识别材质的问题。[3dmax+VRay导入到unity中如何保持效果正常](https://blog.csdn.net/linyisonger/article/details/82795684) （这个如果找同学帮忙的话可能会麻烦死...       
+毕业论文：   
+- 论文在写主要的第四章了，等基本完成之后再写测试过程，未来和展望完成了主要的点。        
+工作安排：   
+- 对着任务书，中期检查表等整理了一下要完成的内容。   
+
+<div align=center><img src="https://github.com/clarazwen/ProgressReport/blob/master/Pictures/0503ToDO.png" width="50%" height="50%"/></div>     
+
+- 把后续工作基本完善，做一下iOS还没完成的内容界面。   
+- 完成毕业论文全部内容，自我查重。  
 
 暂时想到这里，待更新。
