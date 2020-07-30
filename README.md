@@ -1,5 +1,8 @@
-## 毕业设计相关记录
-本仓库为clarazhang的毕业设计记录。  
+## 写在前面。   
+    我本科为bupt的数技专业，现已毕业，本文档为我本科的毕业设计的整体开发过程的各种记录。   
+    主要是使用ARKit进行家装设计软件的开发，最终实现了一个iOS端的APP。开发过程尝试了很多办法，踩了很多的坑，如果看到这篇文档的人对类似的软件开发或是增强现实应用开发过程中有什么问题也可以一起探讨一下鸭XD   
+    这个毕业设计最终成绩为优秀（90.5/100），参与了优秀毕设答辩。算是给本科画上了一个句号叭！     
+## 毕业设计相关记录   
 - **周报内容**  请查看详细周报记录：[进度汇报](https://github.com/clarazwen/ProgressReport/blob/master/Weekly.md)   
 - **第二阶段周报内容**  请查看详细周报记录：[第二阶段进度汇报](https://github.com/clarazwen/ProgressReport/blob/master/Weekly2.0.md)   
 - **参考资料**  请查看整个毕设的完成过程所用到的全部参考资料：[参考资料](https://github.com/clarazwen/ProgressReport/blob/master/References/References.md)  
@@ -85,9 +88,7 @@ dscacheutil -flushcache
   - [问题22](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9822):macOS系统升级的问题。   
   - [问题23](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9823):光照估计获取数值的部分需要设备支持TrueDepth。   
   - [问题24](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9824):旧版sdk与unity新版导出iOS格式文件有所不同，导致的Calling TargetGuidByName with name='Unity-iPhone' is deprecated.     
-- 未解决  
   - [问题20](https://github.com/clarazwen/ProgressReport/blob/master/ProblemsAndSolutions/Problems_and_solutions.md#%E9%97%AE%E9%A2%9820):放进来的模型位置不稳定  
 
 
 
-其余待更新。  
