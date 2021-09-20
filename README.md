@@ -1,5 +1,5 @@
 ## 写在前面。   
-    本科毕业设计——北京邮电大学 数字媒体技术（最终成绩：优秀 90.5/100）。 
+    本科毕业设计——北京邮电大学 数字媒体技术
      
 ## 毕业设计相关记录   
 - **周报内容**  请查看详细周报记录：[进度汇报](https://github.com/clarazwen/ProgressReport/blob/master/Weekly.md)   
